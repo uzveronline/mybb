@@ -12,7 +12,13 @@ $l['nav_lostpw'] = "Lost Password Recovery";
 $l['nav_resetpassword'] = "Reset Password";
 $l['nav_login'] = "Login";
 $l['nav_emailuser'] = "Email User";
+$l['nav_referrals'] = "Users Referred by {1}";
 $l['nav_profile'] = "Profile of {1}";
+
+$l['referrals'] = 'Referrals';
+$l['referral_date'] = 'Referral Date:';
+$l['referrals_no_user_specified'] = 'No user specified.';
+$l['member_no_referrals'] = 'No referrals for this user.';
 
 $l['tpp_option'] = "Show {1} threads per page";
 $l['ppp_option'] = "Show {1} posts per page";
@@ -170,6 +176,8 @@ $l['membdayage'] = "({1} years old)";
 $l['mod_options'] = "Moderator Options";
 $l['edit_in_mcp'] = "Edit this user in Mod CP";
 $l['ban_in_mcp'] = "Ban this user in Mod CP";
+$l['edit_ban_in_mcp'] = "Edit ban in Mod CP";
+$l['lift_ban_in_mcp'] = "Lift ban in Mod CP";
 $l['purgespammer'] = "Purge Spammer";
 $l['edit_usernotes'] = "Edit user notes in Mod CP";
 $l['no_usernotes'] = "There are currently no notes on this user";
