@@ -5,29 +5,28 @@
  */
 
 
-$l['spam_logs']       = 'Spam Logs';
-$l['spam_logs_desc']  = 'This section allows you to view a history of users blocked by the spam filters.';
-$l['prune_spam_logs']       = 'Prune Spam Logs';
-$l['prune_spam_logs_desc']  = 'Here you can prune the spam logs matching a specified criteria.';
-$l['spam_username']   = 'Username';
-$l['spam_email']      = 'Email Address';
-$l['spam_ip']         = 'IP Address';
-$l['spam_date']       = 'Date';
-$l['spam_confidence'] = 'Confidence';
-$l['no_spam_logs'] = 'No users have been blocked by the spam filters yet.';
-$l['success_pruned_spam_logs'] = 'The spam logs have been pruned successfully.';
-$l['note_logs_locked'] = 'For security reasons, logs less than 24 hours old cannot be pruned.';
-$l['all_usernames'] = 'All usernames';
-$l['all_emails'] = ' All Email Addresses';
-$l['date_range'] = "Date range:";
-$l['days'] = "days";
-$l['filter_spam_logs'] = 'Filter Spam Logs';
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
+$l['spam_logs'] = "Журналы спама";
+$l['spam_logs_desc'] = "Этот раздел позволяет просматривать историю пользователей, заблокированных спам-фильтром.";
+$l['prune_spam_logs'] = "Очистка журнала спама";
+$l['prune_spam_logs_desc'] = "Здесь вы можете сократить журнал спама в соответствии с указанными критериями.";
+$l['spam_username'] = "Имя пользователя";
+$l['spam_email'] = "Email адрес";
+$l['spam_ip'] = "IP адрес";
+$l['spam_date'] = "Дата";
+$l['spam_confidence'] = "Доверительный";
+$l['no_spam_logs'] = "Нет пользователей, которые были заблокированы спам-фильтром .";
+$l['success_pruned_spam_logs'] = "Журнал спама был успешно очищен.";
+$l['note_logs_locked'] = "По соображениям безопасности, зарегистрированные менее 24 часов назад не могут быть очищены.";
+$l['all_usernames'] = "Все имена пользователей";
+$l['all_emails'] = " Все Email адреса";
+$l['date_range'] = "Диапозон дат:";
+$l['days'] = "дней";
+$l['filter_spam_logs'] = "Фильтр журнала спама";
+$l['asc'] = "возрастанию";
+$l['desc'] = "убыванию";
 $l['search_ip_on_sfs'] = "Search this IP on Stop Forum Spam";
 $l['search'] = "Search";
-
-$l['in'] = "in";
-$l['order'] = "order";
-$l['sort_by'] = "Sort By";
-$l['results_per_page'] = "Results Per Page";
+$l['in'] = "по";
+$l['order'] = " ";
+$l['sort_by'] = "Сортировать по ";
+$l['results_per_page'] = " результатов на странице";

@@ -5,11 +5,9 @@
  *
  */
 
-$l['templates_and_style'] = "Templates &amp; Style";
 
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-
-$l['can_manage_themes'] = "Can manage themes?";
-$l['can_manage_templates'] = "Can manage templates?";
-
+$l['templates_and_style'] = "Шаблоны &amp; Стиль";
+$l['themes'] = "Темы";
+$l['templates'] = "Шаблоны";
+$l['can_manage_themes'] = "Можно управлять темами?";
+$l['can_manage_templates'] = "Можно управлять шаблонами?";

@@ -5,128 +5,107 @@
  *
  */
 
-$l['mod_tools'] = "Moderator Tools";
 
-$l['thread_tools'] = "Thread Tools";
+$l['mod_tools'] = "Инструмент модератора";
+$l['thread_tools'] = "Инструменты тем";
 $l['thread_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom thread tools.";
-
-$l['add_thread_tool'] = "Add Thread Tool";
-$l['add_new_thread_tool'] = "Add New Thread Tool";
-$l['add_thread_tool_desc'] = "Here you can add a new custom thread moderation tool. This tool will be accessible from both inline thread moderation and from within threads themselves, listed with the default moderation tools.";
-
-$l['post_tools'] = "Post Tools";
-$l['post_tools_desc'] = "Custom moderator tools allows you to create combinations of moderator actions that can be used on both threads and posts. These can then be used like the default tools when managing your forum. Here you can manage your custom post tools.";
-
-$l['add_post_tool'] = "Add Post Tool";
-$l['add_new_post_tool'] = "Add New Post Tool";
-$l['add_post_tool_desc'] = "Here you can add a new custom post moderation tool. This tool will be accessible from within threads themselves, listed with the default moderation tools.";
-
-$l['edit_post_tool'] = "Edit Post Tool";
-$l['edit_post_tool_desc'] = "Here you can edit the post tool's settings and actions.";
-$l['edit_thread_tool'] = "Edit Thread Tool";
-$l['edit_thread_tool_desc'] = "Here you can edit the thread tool's settings and actions.";
-
-$l['no_thread_tools'] = "There are no thread tools setup on your forum.";
-$l['no_post_tools'] = "There are no post tools setup on your forum.";
-
-$l['confirm_thread_tool_deletion'] = "Are you sure you want to delete this thread tool?";
-$l['confirm_post_tool_deletion'] = "Are you sure you want to delete this post tool?";
-
-$l['success_post_tool_deleted'] = "The selected post moderation tool has been deleted successfully.";
-$l['success_thread_tool_deleted'] = "The selected thread moderation tool has been deleted successfully.";
-
-$l['error_invalid_post_tool'] = "The specified post tool does not exist.";
-$l['error_invalid_thread_tool'] = "The specified thread tool does not exist.";
-
-$l['general_options'] = "General Options";
-$l['short_description'] = "Short Description";
-$l['available_in_forums'] = "Available in forums";
-$l['available_to_groups'] = "Available to groups";
-$l['show_confirmation'] = "Show Confirmation Page";
-$l['save_thread_tool'] = "Save Thread Tool";
-
-$l['title'] = "Title";
-
-$l['thread_moderation'] = "Thread Moderation";
-$l['approve_unapprove'] = "Approve/Unapprove thread?";
-
-$l['no_change'] = "No Change";
-$l['approve'] = "Approve";
-$l['unapprove'] = "Unapprove";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['open'] = "Open";
-$l['close'] = "Close";
-$l['stick'] = "Stick";
-$l['unstick'] = "Unstick";
-$l['toggle'] = "Toggle";
-$l['days'] = "Days";
-$l['no_prefix'] = "No Prefix";
-$l['restore'] = "Restore";
-$l['softdelete'] = "Soft delete";
-
-$l['forum_to_move_to'] = "Forum to move to:";
-$l['leave_redirect'] = "Leave redirect?";
-$l['delete_redirect_after'] = "Delete redirect after";
-$l['do_not_move_thread'] = "Do not move thread";
-$l['do_not_copy_thread'] = "Do not copy thread";
-$l['move_thread'] = "Move thread?";
-$l['move_thread_desc'] = "If moving the thread(s), the \"delete redirect after&hellip; days\" is only to be filled in if a redirect will be left.";
-$l['forum_to_copy_to'] = "Forum to copy to:";
-$l['copy_thread'] = "Copy thread?";
-$l['open_close_thread'] = "Open/close thread?";
-$l['stick_unstick_thread'] = "Stick/unstick thread?";
-$l['softdelete_restore_thread'] = "Soft delete/restore thread?";
-$l['delete_thread'] = "Delete thread permanently?";
-$l['merge_thread'] = "Merge thread?";
-$l['merge_thread_desc'] = "Only if used in inline moderation.";
-$l['delete_poll'] = "Delete poll?";
-$l['delete_redirects'] = "Delete redirects?";
-$l['remove_subscriptions'] = "Remove thread subscriptions?";
-$l['recount_rebuild'] = "Recount & Rebuild?";
-$l['apply_thread_prefix'] = "Apply thread prefix?";
-$l['new_subject'] = "New subject?";
-$l['new_subject_desc'] = "{subject} represents the original subject. {username} represents the moderator's username.";
-
-$l['add_new_reply'] = "Add New Reply";
-$l['add_new_reply_desc'] = "Leave blank for no reply.";
-$l['reply_subject'] = "Reply subject.";
-$l['reply_subject_desc'] = "Only used if a reply was made.<br />{subject} represents the original subject. {username} represents the moderator's username.";
-
-$l['success_mod_tool_created'] = "The moderation tool has been created successfully.";
-$l['success_mod_tool_updated'] = "The moderation tool has been updated successfully.";
-
-$l['inline_post_moderation'] = "Inline Post Moderation";
-$l['delete_posts'] = "Delete posts permanently?";
-$l['merge_posts'] = "Merge posts?";
-$l['merge_posts_desc'] = "Only if used from inline moderation.";
-$l['approve_unapprove_posts'] = "Approve/unapprove posts?";
-$l['softdelete_restore_posts'] = "Soft delete/restore posts?";
-
-$l['split_posts'] = "Split Posts";
-$l['split_posts2'] = "Split posts?";
-$l['do_not_split'] = "Do not split posts";
-$l['split_to_same_forum'] = "Split to same forum";
-$l['close_split_thread'] = "Close split thread?";
-$l['stick_split_thread'] = "Stick split thread?";
-$l['unapprove_split_thread'] = "Unapprove split thread?";
-$l['split_thread_prefix'] = "Split thread prefix";
-$l['split_thread_subject'] = "Split thread subject";
-$l['split_thread_subject_desc'] = "{subject} represents the original subject. Only required if splitting posts.";
-$l['add_new_split_reply'] = "Add reply to split thread";
-$l['add_new_split_reply_desc'] = "Leave blank for no reply.";
-$l['split_reply_subject'] = "Reply subject";
-$l['split_reply_subject_desc'] = "Only used if a reply is made";
-$l['save_post_tool'] = "Save Post Tool";
-
-$l['send_private_message'] = 'Send Private Message';
-$l['private_message_message'] = 'Message';
-$l['private_message_message_desc'] = 'Message to send to the author of the thread. Leave empty to disable this feature.';
-$l['private_message_subject'] = 'Subject';
-$l['private_message_subject_desc'] = 'Enter the subject of the Private Message.';
-
-$l['error_missing_title'] = "Please enter a name for this tool.";
-$l['error_missing_description'] = "Please enter a short description for this tool.";
-$l['error_no_forums_selected'] = "Please select the forums in which this tool will be available.";
-$l['error_no_groups_selected'] = "Please select the groups to which this tool will be available.";
-$l['error_forum_is_category'] = "You can't pick a category-type forum as a destination forum.";
+$l['add_thread_tool'] = "Добавить инструмент темы";
+$l['add_new_thread_tool'] = "Добавить новый инструмент темы";
+$l['add_thread_tool_desc'] = "Здесь вы можете добавить новый инструмент модерации тем пользователей. Этот инструмент будет доступен как из внутренней модерации тем, так и перечисленные при модерации инструментов по умолчанию.";
+$l['post_tools'] = "Инструменты сообщения";
+$l['post_tools_desc'] = "Пользовательские инструменты модератора позволяет создавать комбинации действий модератора, которые могут быть использованы и для тем и для сообщений. Они могут быть использованы как инструменты по умолчанию при управлении форумом. Здесь вы можете управлять инструментами сообщений пользователя.";
+$l['add_post_tool'] = "Добавить инструмент сообщения";
+$l['add_new_post_tool'] = "Добавить инструмент нового сообщения";
+$l['add_post_tool_desc'] = "Здесь вы можете добавить пользовательский инструмент модерации сообщения. Этот инструмент будет доступен изнутри самих тем, и перечислены в списке интсрументов модерации.";
+$l['edit_post_tool'] = "Редактировать инструмент сообщения";
+$l['edit_post_tool_desc'] = "Здесь вы можете редактировать настройки и действия Инструмента сообщений.";
+$l['edit_thread_tool'] = "Редактировать инструмент темы";
+$l['edit_thread_tool_desc'] = "Здесь вы можете редактировать настройки и действия Инструмента темы.";
+$l['no_thread_tools'] = "Нет настроек тем на вашем форуме.";
+$l['no_post_tools'] = "Нет настроек сообщений на вашем форуме.";
+$l['confirm_thread_tool_deletion'] = "Вы уверены, что хотите удалить этот инструмент темы?";
+$l['confirm_post_tool_deletion'] = "Вы уверены, что хотите удалить этот инструмент сообщения?";
+$l['success_post_tool_deleted'] = "Выбранный инструмент модерации сообщений был успешно удален.";
+$l['success_thread_tool_deleted'] = "Выбранный инструмент модерации тем был успешно удален.";
+$l['error_invalid_post_tool'] = "Указанный инструмент сообщений не существует.";
+$l['error_invalid_thread_tool'] = "Указанный инструмент тем не существует.";
+$l['general_options'] = "Основные параметры";
+$l['short_description'] = "Краткое описание";
+$l['available_in_forums'] = "Доступно в форумах";
+$l['available_to_groups'] = "Доступно в группах";
+$l['show_confirmation'] = "Показать страницу подтверждения";
+$l['save_thread_tool'] = "Сохранить инструмент темы";
+$l['title'] = "Заголовок";
+$l['thread_moderation'] = "Модерация темы";
+$l['approve_unapprove'] = "Одобрить/Запретить тему?";
+$l['no_change'] = "Без изменений";
+$l['approve'] = "Одобриь";
+$l['unapprove'] = "Запретить";
+$l['stick'] = "Прикрепить";
+$l['unstick'] = "Открепить";
+$l['open'] = "Открыть";
+$l['close'] = "Закрыть";
+$l['toggle'] = "Переключатель";
+$l['days'] = "Дней";
+$l['no_prefix'] = "Без префикса";
+$l['restore'] = "Восстановить";
+$l['softdelete'] = "Предудаление";
+$l['forum_to_move_to'] = "Форум для переноса:";
+$l['leave_redirect'] = "Оставить перенаправление?";
+$l['delete_redirect_after'] = "Удалить перенаправления после";
+$l['do_not_move_thread'] = "Не перемещать тему";
+$l['do_not_copy_thread'] = "Не копировать тему";
+$l['move_thread'] = "Переместить тему?";
+$l['move_thread_desc'] = "Если переносится тема(ы), то \"удалить перенаправления после ... дней\" заполняется только, если редирект останется.";
+$l['forum_to_copy_to'] = "Форум для копирования:";
+$l['copy_thread'] = "Копировать тему?";
+$l['open_close_thread'] = "Открыть/Закрыть тему?";
+$l['stick_unstick_thread'] = "Закрепить/открепить тему?";
+$l['softdelete_restore_thread'] = "Преудаление/восстановление темы?";
+$l['delete_thread'] = "Удалить тему навсегда?";
+$l['merge_thread'] = "Объединить тему?";
+$l['merge_thread_desc'] = "Только при использовании встроенной модерации.";
+$l['delete_poll'] = "Удалить опрос?";
+$l['delete_redirects'] = "Удалить перенаправления?";
+$l['remove_subscriptions'] = "Удалить подписки тем?";
+$l['recount_rebuild'] = "Пересчитать & Перестроить?";
+$l['apply_thread_prefix'] = "Применить префикс темы?";
+$l['new_subject'] = "Новая тема?";
+$l['new_subject_desc'] = "{subject} представляет собой оригинальную тему. {username} представляет собой имя модератора.";
+$l['add_new_reply'] = "Добавить новый ответ";
+$l['add_new_reply_desc'] = "Оставьте пустым если нет ответа.";
+$l['reply_subject'] = "Тема ответа.";
+$l['reply_subject_desc'] = "Используется только если ответ был сделан.<br />{subject} представляет собой оригинальную тему. {username} представляет собой имя модератора.";
+$l['success_mod_tool_created'] = "Инструмент модерации был успешно создан.";
+$l['success_mod_tool_updated'] = "Инструмент модерации был успешно обновлён.";
+$l['inline_post_moderation'] = "Встроенная модерация сообщения";
+$l['delete_posts'] = "Удалить сообщения навсегда?";
+$l['merge_posts'] = "Объединить сообщения?";
+$l['merge_posts_desc'] = "Только при использовании встроенной модерации.";
+$l['approve_unapprove_posts'] = "Одобрить/запретить сообщения?";
+$l['softdelete_restore_posts'] = "Предудаление/востановление сообщений?";
+$l['split_posts'] = "Разделить сообщение";
+$l['split_posts2'] = "Разделить сообщения?";
+$l['do_not_split'] = "Не разбивать сообщения";
+$l['split_to_same_forum'] = "Разделить форум";
+$l['close_split_thread'] = "Закрыть разделённые темы?";
+$l['stick_split_thread'] = "Закрепить разделённые темы?";
+$l['unapprove_split_thread'] = "Запретить разделённые темы?";
+$l['split_thread_prefix'] = "Префикс разделённых тем";
+$l['split_thread_subject'] = "Заголовок темы разделённых тем";
+$l['split_thread_subject_desc'] = "{subject} представляет собой оригинальную тему. Требуется только, если сообщения разделяются.";
+$l['add_new_split_reply'] = "Добавить ответ на разделённые темы";
+$l['add_new_split_reply_desc'] = "Оставьте пустым если нет ответа.";
+$l['split_reply_subject'] = "Заголовк ответа";
+$l['split_reply_subject_desc'] = "Используется только если ответ сделан";
+$l['save_post_tool'] = "Сохранить инструмент сообщения";
+$l['send_private_message'] = "Отправить личное сообщение";
+$l['private_message_message'] = "Сообщение";
+$l['private_message_message_desc'] = "Сообщение для отправки автору темы. Оставьте пустым, чтобы отключить эту функцию.";
+$l['private_message_subject'] = "Тема";
+$l['private_message_subject_desc'] = "Введите тему Личного сообщения.";
+$l['error_missing_title'] = "Пожалуйста, введите имя для этого инструмента.";
+$l['error_missing_description'] = "Пожалуйста, введите краткое описание для этого инструмента.";
+$l['error_no_forums_selected'] = "Пожалуйста, выберите форум, в котором этот инструмент будет доступен.";
+$l['error_no_groups_selected'] = "Пожалуйста, выберите группы, в которой этот инструмент будет доступен.";
+$l['error_forum_is_category'] = "Вы не можете выбрать тип категории форум как форум назначения.";

@@ -5,49 +5,43 @@
  *
  */
 
-$l['attachment_types'] = "Attachment Types";
-$l['attachment_types_desc'] = "Here you can create and manage attachment types which define which types of files users can attach to posts. Note: Disabling an attachment type will make existing attachments of this type inaccessible.";
-$l['add_new_attachment_type'] = "Add New Attachment Type";
-$l['add_attachment_type'] = "Add Attachment Type";
-$l['add_attachment_type_desc'] = "Adding a new attachment type will allow members to attach files of this type to their posts. You have the ability to control the extension, MIME type, maximum size and show a small icon for each attachment type.";
-$l['edit_attachment_type'] = "Edit Attachment Type";
-$l['edit_attachment_type_desc'] = "You have the ability to control the extension, MIME type, maximum size and show a small MIME type for this attachment type.";
 
-$l['extension'] = "Extension";
-$l['maximum_size'] = "Maximum Size";
-$l['no_attachment_types'] = "There are no attachment types on your forum at this time.";
 
-$l['name'] = "Name";
-$l['name_desc'] = "Enter the name of the attachment type.";
-$l['file_extension'] = "File Extension";
-$l['file_extension_desc'] = "Enter the file extension you wish to allow uploads for here (Do not include the period before the extension) (Example: txt)";
-$l['mime_type'] = "MIME Type";
-$l['mime_type_desc'] = "Enter the MIME type sent by the server when downloading files of this type (<a href=\"http://www.freeformatter.com/mime-types-list.html\">See a list here</a>)";
-$l['maximum_file_size'] = "Maximum File Size (Kilobytes)";
-$l['maximum_file_size_desc'] = "The maximum file size for uploads of this attachment type in Kilobytes (1 MB = 1024 KB)";
-$l['limit_intro'] = "Please ensure the maximum file size is below the smallest of the following PHP limits:";
-$l['limit_post_max_size'] = "Max Post Size: {1}";
-$l['limit_upload_max_filesize'] = "Upload Max File Size: {1}";
-$l['attachment_icon'] = "Attachment Icon";
-$l['attachment_icon_desc'] = "If you wish to show a small attachment icon for attachments of this type then enter the path to it here. {theme} will be replaced by the image directory for the viewers theme allowing you to specify per-theme attachment icons.";
-$l['save_attachment_type'] = "Save Attachment Type";
-
-$l['error_invalid_attachment_type'] = "You have selected an invalid attachment type.";
-$l['error_missing_mime_type'] = "You did not enter a MIME type for this attachment type";
-$l['error_missing_extension'] = "You did not enter a file extension for this attachment type";
-
-$l['success_attachment_type_created'] = "The attachment type has been created successfully.";
-$l['success_attachment_type_updated'] = "The attachment type has been updated successfully.";
-$l['success_attachment_type_deleted'] = "The attachment type has been deleted successfully.";
-
-$l['confirm_attachment_type_deletion'] = "Are you sure you wish to delete this attachment type?";
-
-$l['success_activated_attachment_type'] = 'The selected attachment type has been activated successfully.';
-$l['success_deactivated_attachment_type'] = 'The selected attachment type has been deactivated successfully.';
-
-$l['enabled'] = "Enabled?";
-$l['avatar_file'] = 'Avatar File';
-$l['avatar_file_desc'] = 'Do you want to allow this attachment type to be used for avatars?';
-
-$l['available_to_groups'] = 'Available to groups';
-$l['available_in_forums'] = 'Available in forums';
+$l['attachment_types'] = "Типы вложений ";
+$l['attachment_types_desc'] = "Здесь вы можете создавать и управлять типами вложений, которые определяют, какие типы файлов пользователи могут прикрепить к своим сообщениям.";
+$l['add_new_attachment_type'] = "Добавить новый тип вложений";
+$l['add_attachment_type'] = "Добавить тип вложения ";
+$l['add_attachment_type_desc'] = "Добавление нового типа вложений позволит участникам прикрепить файлы этого типа к своим сообщениям. У вас есть возможность контролировать расширение, MIME-тип, максимальный размер и показать небольшую иконку для каждого типа вложения.";
+$l['edit_attachment_type'] = "Изменение типа вложений";
+$l['edit_attachment_type_desc'] = "У вас есть возможность контролировать расширение, MIME-тип, максимальный размер и показать небольшой MIME тип для данного типа вложения.";
+$l['extension'] = "Расширение";
+$l['maximum_size'] = "Максимальный размер";
+$l['no_attachment_types'] = "Сейчас нет типов вложений на вашем форуме.";
+$l['name'] = "Название";
+$l['name_desc'] = "Введите название типа вложения";
+$l['file_extension'] = "Расширение файла";
+$l['file_extension_desc'] = "Введите расширение файла, доступное для загрузки  (ничего не добавляйте перед раширением)  (пример: txt)";
+$l['mime_type'] = "MIME тип";
+$l['mime_type_desc'] = "Введите тип MIME, отправляемый серверу при загрузке файлов данного типа (<a href=\"http://www.freeformatter.com/mime-types-list.html\">Смотрите список здесь</a>)";
+$l['maximum_file_size'] = "Максимальный размер файла (килобайт)";
+$l['maximum_file_size_desc'] = "Максимальный размер файла для загрузки этого типа вложений в килобайтах (1 MB = 1024 KB)";
+$l['limit_intro'] = "Пожалуйста, убедитесь, что максимальный размер файла ниже наименьшей из следующих ограничений PHP:";
+$l['limit_post_max_size'] = "Макс размер отправки : {1}";
+$l['limit_upload_max_filesize'] = "Максимальный размер загружаемого файла: {1}";
+$l['attachment_icon'] = "Иконка вложения ";
+$l['attachment_icon_desc'] = "Если вы хотите показать небольшой значок приложения для вложения этого типа , введите путь к нему здесь. {theme} будет заменен каталогом изображений для просматриваемой темы и позволяет задать в каждой теме свой значок вложения.";
+$l['save_attachment_type'] = "Сохранить тип вложений";
+$l['error_invalid_attachment_type'] = "Вы выбрали неверный тип вложения.";
+$l['error_missing_mime_type'] = "Вы не ввели тип MIME для данного типа приложения";
+$l['error_missing_extension'] = "Вы не ввели расширение файла для данного типа приложения";
+$l['success_attachment_type_created'] = "Тип приложения был успешно создан.";
+$l['success_attachment_type_updated'] = "Тип приложения был успешно обновлен.";
+$l['success_attachment_type_deleted'] = "Тип приложения был успешно удален.";
+$l['confirm_attachment_type_deletion'] = "Вы уверены, что хотите удалить этот тип вложения?";
+$l['success_activated_attachment_type'] = "Выбранный тип вложений был успешно активирован.";
+$l['success_deactivated_attachment_type'] = "Выбранный тип вложений был успешно деактивирован.";
+$l['enabled'] = "Доступно?";
+$l['avatar_file'] = "Файл аватара";
+$l['avatar_file_desc'] = "Вы хотите разрешить этот тип приложения для аватаров?";
+$l['available_to_groups'] = "Доступно для групп";
+$l['available_in_forums'] = "Доступно в форумах";

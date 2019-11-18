@@ -5,42 +5,37 @@
  *
  */
 
-$l['tools_and_maintenance'] = "Tools &amp; Maintenance";
 
-$l['maintenance'] = "Maintenance";
-$l['logs'] = "Logs";
-
-$l['system_health'] = "System Health";
-$l['cache_manager'] = "Cache Manager";
-$l['task_manager'] = "Task Manager";
-$l['recount_and_rebuild'] = "Recount &amp; Rebuild";
-$l['view_php_info'] = "View PHP Info";
-$l['database_backups'] = "Database Backups";
-$l['optimize_database'] = "Optimize Database";
-$l['file_verification'] = "File Verification";
-
-$l['administrator_log'] = "Administrator Log";
-$l['moderator_log'] = "Moderator Log";
-$l['user_email_log'] = "User Email Log";
-$l['system_mail_log'] = "System Mail Log";
-$l['user_warning_log'] = "User Warning Log";
-$l['spam_log'] = "Spam Log";
-$l['statistics'] = "Statistics";
-
-$l['can_access_system_health'] = "Can access system health?";
-$l['can_manage_cache'] = "Can manage cache?";
-$l['can_manage_tasks'] = "Can manage scheduled tasks?";
-$l['can_manage_db_backup'] = "Can manage backup database?";
-$l['can_optimize_db'] = "Can optimize database?";
-$l['can_recount_and_rebuild'] = "Can recount and rebuild?";
-$l['can_manage_admin_logs'] = "Can manage administrator log?";
-$l['can_manage_mod_logs'] = "Can manage moderator log?";
-$l['can_manage_user_mail_log'] = "Can manage user mail Log?";
-$l['can_manage_system_mail_log'] = "Can manage system mail log?";
-$l['can_manage_user_warning_log'] = "Can manage user warning logs?";
-$l['can_manage_spam_log'] = "Can manage spam logs?";
-$l['can_view_php_info'] = "Can view PHP info?";
-$l['can_manage_file_verification'] = "Can manage file verification?";
-$l['can_view_statistics'] = "Can view statistics?";
-
-
+$l['tools_and_maintenance'] = "Инструменты &amp; Обслуживание";
+$l['maintenance'] = "Обслуживание";
+$l['logs'] = "Логи";
+$l['system_health'] = "Работоспособность системы";
+$l['cache_manager'] = "Управление кэшем";
+$l['task_manager'] = "Управление задачами";
+$l['recount_and_rebuild'] = "Пересчет &amp; Перестроение";
+$l['view_php_info'] = "Просмотр инфо о PHP";
+$l['database_backups'] = "Бэкапы БД";
+$l['optimize_database'] = "Оптимизация БД";
+$l['file_verification'] = "Проверка файлов";
+$l['administrator_log'] = "Лог администратора";
+$l['moderator_log'] = "Лог модератора";
+$l['user_email_log'] = "Лог почты пользователя";
+$l['system_mail_log'] = "Лог системного журнала электронной почты";
+$l['user_warning_log'] = "Лог предупреждений пользователя";
+$l['spam_log'] = "Лог спама";
+$l['statistics'] = "Статистика";
+$l['can_access_system_health'] = "Можно иметь доступ к работоспособности ситемы?";
+$l['can_manage_cache'] = "Можно управлять кэшем?";
+$l['can_manage_tasks'] = "Можно управлять запланированными задачами?";
+$l['can_manage_db_backup'] = "Можно управлять бэкапами БД?";
+$l['can_optimize_db'] = "Можно оптимизироваь БД?";
+$l['can_recount_and_rebuild'] = "Можно пересчитать и восстановить?";
+$l['can_manage_admin_logs'] = "Можно управлять логом администратора?";
+$l['can_manage_mod_logs'] = "Можно управлять логом модератора?";
+$l['can_manage_user_mail_log'] = "Можно управлять логом почты пользователя?";
+$l['can_manage_system_mail_log'] = "Можно управлять системным логом почты?";
+$l['can_manage_user_warning_log'] = "Можно управлять логом предупреждений пользователя?";
+$l['can_manage_spam_log'] = "Можно управлять логом спама?";
+$l['can_view_php_info'] = "Можно просматривать информацию о PHP?";
+$l['can_manage_file_verification'] = "Можно управлять проверкой файла?";
+$l['can_view_statistics'] = "Можно просматривать статистику?";

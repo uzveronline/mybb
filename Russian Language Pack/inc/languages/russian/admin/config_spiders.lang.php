@@ -5,38 +5,32 @@
  *
  */
 
-$l['spiders_bots'] = "Spiders / Bots";
-$l['spiders_bots_desc'] = "This section allows you to manage the search engine spiders &amp; bots automatically detected by your forum. You're also able to see when a particular bot last visited.";
-$l['add_new_bot'] = "Add New Bot";
-$l['add_new_bot_desc'] = "Here you can add a new bot that you would like to be detected by your forum.";
 
-$l['edit_bot'] = "Edit Bot";
-$l['edit_bot_desc'] = "Here you can edit an existing bot.";
-
-$l['bot'] = "Bot";
-$l['last_visit'] = "Last Visit";
-$l['no_bots'] = "There are no search engine spiders or web crawlers being tracked by this forum.";
-
-$l['name'] = "Name";
-$l['name_desc'] = "Enter the name of this bot which you want to identify it by";
-$l['user_agent'] = "User Agent String";
-$l['user_agent_desc'] = "Enter the string which will be matched against the bots user agent (partial matches are accepted)";
-$l['language_str'] = "Language";
-$l['language_desc'] = "Select the language pack the bot will use when viewing the board.";
-$l['theme'] = "Theme";
-$l['theme_desc'] = "Select the theme the bot will use when viewing the board.";
-$l['user_group'] = "User Group";
-$l['user_group_desc'] = "Select the user group permissions will be applied from for this board (Note: It is not recommended you change this from the default Guests group)";
-$l['save_bot'] = "Save Bot";
-$l['use_board_default'] = "Use Board Default";
-
-$l['error_invalid_bot'] = "The specified bot does not exist.";
-$l['error_missing_name'] = "You did not enter a name for this bot";
-$l['error_missing_agent'] = "You did not enter a user agent string for this bot";
-
-$l['success_bot_created'] = "The bot has been created successfully.";
-$l['success_bot_updated'] = "The bot has been updated successfully.";
-$l['success_bot_deleted'] = "The selected bot has been deleted successfully.";
-
-$l['confirm_bot_deletion'] = "Are you sure you wish to delete this bot?";
-
+$l['spiders_bots'] = "Пауки / Боты";
+$l['spiders_bots_desc'] = "Этот раздел позволяет управлять пауками поисковых систем; ботами, которые автоматически распознаются на форуме. Вы также можете видеть, когда в последний раз посетил конкретный бот.";
+$l['add_new_bot'] = "Добавить новый бот";
+$l['add_new_bot_desc'] = "Здесь вы можете добавить новый бот, который мог быть обнаружен с помощью вашего форума.";
+$l['edit_bot'] = "Редактировать бот";
+$l['edit_bot_desc'] = "Здесь вы можете изменить существующий бота.";
+$l['bot'] = "Бот";
+$l['last_visit'] = "Последнее посещение";
+$l['no_bots'] = "Там нет пауков поисковых систем или поисковых роботов, отслеженных с помощью этого форума.";
+$l['name'] = "Имя";
+$l['name_desc'] = "Введите название этого бота для идентификации";
+$l['user_agent'] = "Строка User Agent";
+$l['user_agent_desc'] = "Введите строку, которая будет сравниваться с ботами агента пользователя (частичные совпадения принимаются)";
+$l['language_str'] = "Язык";
+$l['language_desc'] = "Выберите языковой пакет, который будет использоваться ботом при просмотре форумов.";
+$l['theme'] = "Тема";
+$l['theme_desc'] = "Выберите тему, который будет использоваться ботом при просмотре форумов.";
+$l['user_group'] = "Группа пользователей";
+$l['user_group_desc'] = "Введите группу пользователей, права которой будут использованы из этих форумов (Примечание: Не рекомендуется изменить это, по умолчанию группа гостей)";
+$l['save_bot'] = "Сохранить бот";
+$l['use_board_default'] = "Использовать язык форумов по умолчанию";
+$l['error_invalid_bot'] = "Указанный бот не существует.";
+$l['error_missing_name'] = "Вы не ввели имя для этого бота";
+$l['error_missing_agent'] = "Вы не ввели строку агента пользователя для этого бота";
+$l['success_bot_created'] = "Бот был успешно создан.";
+$l['success_bot_updated'] = "Бот был успешно обновлен.";
+$l['success_bot_deleted'] = "Выбранный бот был успешно удален.";
+$l['confirm_bot_deletion'] = "Вы уверены, что хотите удалить этот бот?";

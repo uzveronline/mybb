@@ -5,60 +5,56 @@
  *
  */
 
-$l['nav_group_management'] = "{1} Group Management";
-$l['nav_join_requests'] = "Join Requests";
-$l['nav_group_memberships'] = "Group Memberships";
+$l['nav_group_management'] = "{1} Управление группами";
+$l['nav_join_requests'] = "Запросы регистрации";
+$l['nav_group_memberships'] = "Членство в группах";
+$l['not_leader_of_this_group'] = "Извините, но вы не являетесь лидером этой группы пользователей.";
+$l['invalid_group'] = "Эта группа пользователей не существует.";
+$l['pending_requests'] = "В ожидании отправки запроса";
+$l['num_requests_pending'] = "в настоящее время есть <strong>{1}</strong> запросов  в ожидании на присоединение к этой группе пользователей.";
+$l['group_management'] = "Управление группой";
+$l['members_of'] = "Участник в \"{1}\"";
+$l['user_name'] = "Имя пользователя";
+$l['contact'] = "Контакт";
+$l['reg_date'] = "Зарегистрирован";
+$l['post_count'] = "Сообщений";
+$l['remove_selected'] = "Удалить выбранных пользователей из группы";
+$l['add_member'] = "Добавить участника в \"{1}"\";
+$l['add_member_submit'] = "Добавить участника в группу";
+$l['invite_member'] = "Пригласить участника в \"{1}\"";
+$l['invite_member_submit'] = "Пригласить участника в группу";
+$l['join_requests'] = "Запрос регистрации";
+$l['join_requests_title'] = "Запрос регистрации для \"{1}\"";
+$l['leader'] = "(Лидер)";
+$l['reason'] = "Причина";
+$l['accept'] = "Принять";
+$l['ignore'] = "Игнорировать";
+$l['decline'] = "Отклонить";
+$l['action_requests'] = "Выполните действия";
+$l['join_requests_moderated'] = "Запросы о вступлении были обработаны.<br />Сейчас вы будете перемещены на список с запросами.";
+$l['no_requests'] = "Сейчас нет ожидающих запросов для присоединения этой группе.";
+$l['no_users'] = "В этой группе нет пользователей .";
+$l['user_added'] = "Пользователь был добавлен в группу.";
+$l['users_removed'] = "Выбранный пользователь был удален из группы.";
+$l['group_no_members'] = "На текущий момент в группе нет участников<br />Для возврата настраницу упраления группой, кликнете <a href=\"usercp.php?action=usergroups\">здесь</a>.";
+$l['group_public_moderated'] = "Это группа пользователей является открытой группой.  Все запросы о вступлении в группу  обрабатываются лидером группы.";
+$l['group_public_not_moderated'] = "Эта группа пользователей является открытой группой. Любой желающий может свободно присоединиться к группе .";
+$l['group_public_invite'] = "Эта группа пользователей является открытой группой и требует приглашение от лидера группы, для того, чтобы присоединится к ней.";
+$l['group_private'] = "Эта группа пользователей является закрытой группой. Членство в группе предоставляется только лидером этой группы.";
+$l['group_default'] = "Эта группа пользователей является основной группой.";
+$l['group_leaders'] = "Лидер группы";
+$l['no_users_selected'] = "Извините, нет пользователей, выбранных для удаления. <br /> Пожалуйста, вернитесь назад и выберите пользователей, которых вы хотите удалить из этой группы.";
+$l['error_alreadyingroup'] = "Указанный пользователь уже является частью группы пользователей.";
+$l['error_alreadyinvited'] = "Указанный пользователь уже приглашен.";
+$l['user_invited'] = "Пользователь был приглашен присоединиться к группе пользователей.";
+$l['invite_pm_subject'] = "Вы были приглашены присоединиться к \"{1}\"";
+$l['invite_pm_message'] = 'Вы получили приглашение войти в группу  \"{1}\".
 
-$l['not_leader_of_this_group'] = "Sorry, but you are not a leader of this user group.";
-$l['invalid_group'] = "This user group does not exist.";
-$l['pending_requests'] ="Pending Join Requests";
-$l['num_requests_pending'] = "There are currently <strong>{1}</strong> pending join requests for this user group.";
-$l['group_management'] = "Group Management";
-$l['members_of'] = "Members in \"{1}\"";
-$l['user_name'] = "Username";
-$l['contact'] = "Contact";
-$l['reg_date'] = "Registered";
-$l['post_count'] = "Posts";
-$l['remove_selected'] = "Remove Selected Users from Group";
-$l['add_member'] = "Add Member to \"{1}\"";
-$l['add_member_submit'] = "Add Member to Group";
-$l['invite_member'] = "Invite Member to \"{1}\"";
-$l['invite_member_submit'] = "Invite Member to Group";
-$l['join_requests'] = "Join Requests";
-$l['join_requests_title'] = "Join Requests for \"{1}\"";
-$l['leader'] = "(Leader)";
-$l['reason'] ="Reason";
-$l['accept'] = "Accept";
-$l['ignore'] = "Ignore";
-$l['decline'] = "Decline";
-$l['action_requests'] = "Perform Actions";
-$l['join_requests_moderated'] = "The join requests have been moderated.<br />You will now be taken to the request listing.";
-$l['no_requests'] = "There are currently no pending join requests for this group.";
-$l['no_users'] = "There are no users in this group.";
-$l['user_added'] = "The user has been added to the user group.";
-$l['users_removed'] = "The selected users have been removed from the user group.";
-$l['group_no_members'] = "There are currently no members in this group.<br />To return to the group management page, click <a href=\"usercp.php?action=usergroups\">here</a>.";
-$l['group_public_moderated'] = "This user group is a public user group that anyone can join.  All join requests must be moderated by a group leader.";
-$l['group_public_not_moderated'] = "This user group is a public user group that anyone can join freely.";
-$l['group_public_invite'] = "This user group is a public user group that requires an invitation from a group leader in order to join.";
-$l['group_private'] = "This user group is a private user group.  Only users added by the group leader can be part of this group.";
-$l['group_default'] = "This user group is a core user group.";
-$l['group_leaders'] = "Group Leaders";
-$l['no_users_selected'] = "Sorry, but no users seemed to be selected for removal.<br />Please go back and select the users you want to remove from this group.";
+Для входа , пожалуйста, перейдите к вашей странице  [url={2}/usercp.php?action=usergroups]участников группы[/url]  и кликните 'Принять приглашение'.
 
-$l['error_alreadyingroup'] = "The user specified is already part of the user group.";
-$l['error_alreadyinvited'] = "The user specified has already been invited.";
+Это приглашение бессрочное.";
+$l['invite_pm_message_expires'] = 'Вы получили приглашение войти в группу \"{1}\".
 
-$l['user_invited'] = "The user has been invited to join the user group.";
-$l['invite_pm_subject'] = "You have been invited to join \"{1}\"";
-$l['invite_pm_message'] = "You have received an invitation to join the user group \"{1}\".
+Для входа , пожалуйста, перейдите к вашей странице [url={2}/usercp.php?action=usergroups]участников группы[/url]  и кликните 'Принять приглашение'.
 
-To join, please proceed to your [url={2}/usercp.php?action=usergroups]Group Memberships[/url] page and click 'Accept Invite'.
-
-This invitation does not expire.";
-$l['invite_pm_message_expires'] = "You have received an invitation to join the user group \"{1}\".
-
-To join, please proceed to your [url={2}/usercp.php?action=usergroups]Group Memberships[/url] page and click 'Accept Invite'.
-
-This invite will expire {3} days from now.";
-
+Приглашение истекает после {3} дней от текущего момента.";

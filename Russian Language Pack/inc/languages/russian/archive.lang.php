@@ -5,14 +5,16 @@
  *
  */
 
-$l['archive_fullversion'] = "Full Version:";
-$l['archive_replies'] = "Replies";
-$l['archive_reply'] = "Reply";
-$l['archive_pages'] = "Pages:";
-$l['archive_note'] = "You're currently viewing a stripped down version of our content. <a href=\"{1}\">View the full version</a> with proper formatting.";
-$l['archive_nopermission'] = "Sorry, you do not have permission to access this resource.";
-$l['error_nothreads'] = "There are currently no threads in this forum.";
-$l['error_nopermission'] = "You do not have permission to view threads in this forum.";
-$l['error_unapproved_thread'] = "This thread is unapproved. Please <a href=\"{1}\">view the full version</a> to view the contents of this thread.";
-$l['archive_not_found'] = "The requested page was not found on this server.";
-$l['error_mustlogin'] = "This bulletin board requires all users to login.";
+
+$l['archive_fullversion'] = "Полная версия:";
+
+$l['archive_replies'] = "Ответов";
+$l['archive_reply'] = "Ответ";
+$l['archive_pages'] = "Страницы:";
+$l['archive_note'] = "Вы просматриваете упрощённую версию нашего контента. <a href=\"{1}\">Просмотр полной версии</a> с полным форматированием.";
+$l['archive_nopermission'] = "К сожалению, у вас нет прав доступа к этому ресурсу.";
+$l['error_nothreads'] = "В настоящее время нет тем в этом форуме.";
+$l['error_nopermission'] = "У вас нет прав для просмотра темы в этом форуме.";
+$l['error_unapproved_thread'] = "Эта тема не утверждена. Пожалуйста, <a href=\"{1}\">просмотрите полную версию</a> чтобы просмотреть содержимое этой темы.";
+$l['archive_not_found'] = "Запрашиваемая страница не найдена на этом сервере.";
+$l['error_mustlogin'] = "Эта доска объявлений требует входа от всех пользователей.";

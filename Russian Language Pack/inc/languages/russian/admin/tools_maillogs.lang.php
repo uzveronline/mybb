@@ -5,33 +5,31 @@
  *
  */
 
-$l['user_email_log'] = "User Email Log";
-$l['user_email_log_desc'] = "All emails sent from one member to another member as well as emails sent by the 'Send Thread to a Friend' feature are logged and shown below. Here you can identify potential abusers of this function.";
-$l['prune_user_email_log'] = "Prune User Email Log";
 
-$l['close_window'] = "Close Window";
-$l['user_email_log_viewer'] = "User Email Log Viewer";
-$l['to'] = "To";
-$l['from'] = "From";
-$l['ip_address'] = "IP Address";
-$l['subject'] = "Subject";
-$l['date'] = "Date";
+$l['user_email_log'] = "Журнал Email пользователей";
+$l['user_email_log_desc'] = "Все письма, отправленные от одного участника к другому участнику, а также письма , отправленные функцией \"Отправить тему другу\"регистрируются и показаны ниже. Здесь вы можете определить потенциально злоупотребляющих этой функцией.";
+$l['prune_user_email_log'] = "Очистить журнал Email пользователей";
+$l['close_window'] = "Закрыть окно";
+$l['user_email_log_viewer'] = "Просмотр журнала Email пользователей";
+$l['to'] = "Кому";
+$l['from'] = "От";
+$l['ip_address'] = "IP адрес";
+$l['subject'] = "Тема";
+$l['date'] = "Дата";
 $l['email'] = "Email";
-$l['date_sent'] = "Date Sent";
-$l['deleted'] = "Deleted";
-$l['sent_using_send_thread_feature'] = "Sent using the Send Thread to Friend feature";
-$l['thread'] = "Thread:";
-$l['find_emails_by_user'] = "Find all emails sent by this user";
-$l['find'] = "Find";
-$l['deleted_user'] = "Deleted User";
-$l['email_sent_to_user'] = "Email sent to user";
-$l['email_sent_using_contact_form'] = "Email sent using the contact form";
-$l['no_logs'] = "There are no log entries with the selected criteria.";
-$l['filter_user_email_log'] = "Filter User Email Log";
-$l['username_is'] = "Username is";
-$l['email_contains'] = "Email Address contains";
-$l['subject_contains'] = "Subject contains";
-$l['find_emails_to_user'] = "Find all emails sent to this user";
-
-$l['error_invalid_user'] = "The username you entered does not exist.";
-
+$l['date_sent'] = "Дата отправки";
+$l['deleted'] = "Удалено";
+$l['sent_using_send_thread_feature'] = "Отправленные с помощью функции Отправить тему другу";
+$l['thread'] = "Тема:";
+$l['find_emails_by_user'] = "Найти все сообщения, отправленные этим пользователем";
+$l['find'] = "Найти";
+$l['deleted_user'] = "Пользователь удален";
+$l['email_sent_to_user'] = "Email отправляется пользователю";
+$l['email_sent_using_contact_form'] = "Email отправленное пользователю через контактную форму";
+$l['no_logs'] = "Нет записей в журнале с выбранными критериями.";
+$l['filter_user_email_log'] = "Фильтр журнала Email пользователей";
+$l['username_is'] = "Имя пользователя";
+$l['email_contains'] = "Email адрес содержит";
+$l['subject_contains'] = "Тема содержит";
+$l['find_emails_to_user'] = "Найти все emails, отправленные этому пользователю";
+$l['error_invalid_user'] = "Указанное имя пользователя не существует.";

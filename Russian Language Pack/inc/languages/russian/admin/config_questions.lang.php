@@ -5,39 +5,35 @@
  *
  */
 
-$l['security_questions'] = "Security Questions";
-$l['security_questions_desc'] = "Here you can create and manage security questions that will be randomly shown during registration.";
-$l['add_new_question'] = "Add New Question";
-$l['add_new_question_desc'] = "Add a question and its answers for the security questions to be used during registration.";
-$l['edit_question'] = "Edit Question";
-$l['edit_question_desc'] = "Here you edit a security question.";
+
+
+$l['security_questions'] = "Вопросы безопасности";
+$l['security_questions_desc'] = "Здесь вы можете создавать и управлять вопросами для безопасности, которые случайным образом будут показаны во время регистрации.";
+$l['add_new_question'] = "Добавить новый вопрос";
+$l['add_new_question_desc'] = "Добавить вопрос и его ответы на вопросы безопасности, которые будут использоваться во время регистрации.";
+$l['edit_question'] = "Редактировать Вопрос";
+$l['edit_question_desc'] = "Здесь вы должны изменить секретный вопрос.";
 $l['preview_question'] = "Preview Question";
-
-$l['options'] = "Options";
+$l['options'] = "Параметры";
 $l['shown'] = "Shown";
-$l['correct'] = "Correct";
-$l['incorrect'] = "Incorrect";
-$l['disable_question'] = "Disable Question";
-$l['enable_question'] = "Enable Question";
-$l['delete_question'] = "Delete Question";
-$l['no_security_questions'] = "There are no security questions on your forum at this time.";
-
-$l['question'] = "Question";
-$l['question_desc'] = "Enter the question you want answered during registration.";
-$l['answers'] = "Answer(s)";
-$l['answers_desc'] = "Enter the answer(s) to the question above. Please enter each answer on a separate line.";
-$l['active'] = "Active";
-$l['save_question'] = "Save Question";
-
-$l['error_invalid_question'] = "You have selected an invalid question.";
-$l['error_missing_question'] = "You did not enter a question for this question";
-$l['error_missing_answer'] = "You did not enter any answers for this question";
-
-$l['success_question_created'] = "The question has been created successfully.";
-$l['success_question_updated'] = "The question has been updated successfully.";
-$l['success_question_disabled'] = "The question has been disabled successfully.";
-$l['success_question_enabled'] = "The question has been enabled successfully.";
-$l['success_question_deleted'] = "The question has been deleted successfully.";
-
-$l['confirm_question_deletion'] = "Are you sure you wish to delete this question?";
-
+$l['correct'] = "Верный";
+$l['incorrect'] = "Неверный";
+$l['disable_question'] = "Отключить вопрос";
+$l['enable_question'] = "Включить вопрос";
+$l['delete_question'] = "Удалить вопрос";
+$l['no_security_questions'] = "Нет вопросов безопасности на вашем форуме сейчас.";
+$l['question'] = "Вопрос";
+$l['question_desc'] = "Введите вопрос, на который вы хотите чтобы ответили во время регистрации.";
+$l['answers'] = "Ответ(ы)";
+$l['answers_desc'] = "Введите ответ(ы) на поставленный выше вопрос. Пожалуйста, введите каждый ответ на отдельной строке.";
+$l['active'] = "Активный";
+$l['save_question'] = "Сохранить Вопрос";
+$l['error_invalid_question'] = "Вы выбрали неверный вопрос.";
+$l['error_missing_question'] = "Вы не ввели вопрос по этому вопросу";
+$l['error_missing_answer'] = "Вы не ввели никаких ответов на этот вопрос";
+$l['success_question_created'] = "Вопрос был успешно создан.";
+$l['success_question_updated'] = "Вопрос был успешно обновлен.";
+$l['success_question_disabled'] = "Вопрос был успешно отключен.";
+$l['success_question_enabled'] = "Вопрос был успешно включен.";
+$l['success_question_deleted'] = "Вопрос был успешно удален.";
+$l['confirm_question_deletion'] = "Вы уверены, что хотите удалить этот вопрос?";

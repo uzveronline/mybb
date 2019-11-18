@@ -6,46 +6,36 @@
  */
 
 
-$l['mod_logs'] = "Moderator Logs";
-$l['mod_logs_desc'] = "Here you can view, prune, and search the moderator logs. These logs contain the actions any user may take (deletion of their own posts/threads) and all other actions by moderators.";
-$l['prune_mod_logs'] = "Prune Moderator Logs";
-$l['prune_mod_logs_desc'] = "Here you can prune the moderator logs matching a specified criteria.";
-
-$l['no_modlogs'] = "There are no log entries with the selected criteria.";
-
-$l['username'] = "Username";
+$l['mod_logs'] = "Журналы модератора";
+$l['mod_logs_desc'] = "Здесь вы можете просмотреть, очистить и искать события в журналах модератора. Эти журналы содержат действия любого пользователя (удаление своих собственных сообщений / тем) и все другие действия модераторов.";
+$l['prune_mod_logs'] = "Очистить журнал модератора";
+$l['prune_mod_logs_desc'] = "Здесь вы можете очистить логи модератора в соответствие указанным критериям.";
+$l['no_modlogs'] = "Нет записей в журнале с выбранными критериями.";
+$l['username'] = "Имя пользователя";
 $l['na_deleted'] = "N/A - Been Deleted";
-$l['date'] = "Date";
-$l['action'] = "Action";
-$l['information'] = "Information";
-$l['ipaddress'] = "IP Address";
-
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
-$l['post'] = "Post:";
-$l['user_info'] = "User:";
-$l['announcement'] = "Announcement:";
-
-$l['filter_moderator_logs'] = "Filter Moderator Logs";
-$l['forum_moderator'] = "Forum Moderator:";
-$l['sort_by'] = "Sort By:";
-$l['results_per_page'] = "Results Per Page:";
-$l['all_moderators'] = "All Moderators";
-$l['older_than'] = "Older than ";
-
-$l['forum_name'] = "Forum Name";
-$l['thread_subject'] = "Thread Subject";
-
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-
-$l['in'] = "in";
-$l['order'] = "order";
-$l['days'] = "days";
-
-$l['prune_moderator_logs'] = "Prune Moderator Logs";
-$l['date_range'] = "Date range:";
-
-$l['success_pruned_mod_logs'] = "The moderator logs have been pruned successfully.";
-$l['note_logs_locked'] = "For security reasons, logs less than 24 hours old cannot be pruned.";
-
+$l['date'] = "Дата";
+$l['action'] = "Действие";
+$l['information'] = "Информация";
+$l['ipaddress'] = "IP адрес";
+$l['forum'] = "Форум:";
+$l['thread'] = "Тема:";
+$l['post'] = "Сообщение:";
+$l['user_info'] = "Пользователь:";
+$l['announcement'] = "Вложение:";
+$l['filter_moderator_logs'] = "Фильтр журнала модератора";
+$l['forum_moderator'] = "Модератор форума:";
+$l['sort_by'] = "Сортировать по:";
+$l['results_per_page'] = "Результатов на странице:";
+$l['all_moderators'] = "Все модераторы";
+$l['older_than'] = "Старше";
+$l['forum_name'] = "Наименование форума";
+$l['thread_subject'] = "Название темы";
+$l['asc'] = "Возрастанию";
+$l['desc'] = "Убыванию";
+$l['in'] = "в";
+$l['order'] = "порядок";
+$l['days'] = "дней";
+$l['prune_moderator_logs'] = "Очистить журнал модератора";
+$l['date_range'] = "Интервал даты:";
+$l['success_pruned_mod_logs'] = "Журнал модератора был успешно очищен.";
+$l['note_logs_locked'] = "По соображениям безопасности, зарегистрированные менее 24 часов назад не могут быть очищены";

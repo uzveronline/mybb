@@ -5,42 +5,37 @@
  *
  */
 
-$l['post_icons'] = "Post Icons";
-$l['add_post_icon'] = "Add New Post Icon";
-$l['add_post_icon_desc'] = "Here you can add a single new post icon.";
-$l['add_multiple_post_icons'] = "Add Multiple Post Icons";
-$l['add_multiple_post_icons_desc'] = "Here you can add multiple new post icons.";
-$l['edit_post_icon'] = "Edit Post Icon";
-$l['edit_post_icon_desc'] = "Here you can edit a post icon.";
-$l['manage_post_icons'] = "Manage Post Icons";
-$l['manage_post_icons_desc'] = "This section allows you to edit, delete, and manage your post icons.";
 
-$l['name_desc'] = "This is the name for the post icon.";
-$l['image_path'] = "Image Path";
-$l['image_path_desc'] = "This is the path to the post icon image. If you want to use different post icon images for different themes, please use <strong>{theme}</strong> to represent the image directory of each theme.";
-$l['save_post_icon'] = "Save Post Icon";
-$l['reset'] = "Reset";
-
-$l['path_to_images'] = "Path to Images";
-$l['path_to_images_desc'] = "This is the path to the folder that the images are in.";
-$l['show_post_icons'] = "Show Post Icons";
-$l['image'] = "Image";
-$l['add'] = "Add?";
-$l['save_post_icons'] = "Save Post Icons";
-
-$l['no_post_icons'] = "There are no post icons on your forum at this time.";
-
-$l['error_missing_name'] = "You did not enter a name for this post icon";
-$l['error_missing_path'] = "You did not enter a path to this post icon";
-$l['error_missing_path_multiple'] = "You did not enter a path";
-$l['error_invalid_path'] = "You did not enter a valid path";
-$l['error_no_images'] = "There are no post icons in the specified directory, or all post icons in the directory have already been added.";
-$l['error_none_included'] = "You did not select any post icons to include.";
-$l['error_invalid_post_icon'] = "The specified post icon does not exist.";
-
-$l['success_post_icon_added'] = "The post icon has been added successfully.";
-$l['success_post_icons_added'] = "The selected post icons have been added successfully.";
-$l['success_post_icon_updated'] = "The post icon has been updated successfully.";
-$l['success_post_icon_deleted'] = "The selected post icon has been deleted successfully.";
-
-$l['confirm_post_icon_deletion'] = "Are you sure you wish to delete this post icon?";
+$l['post_icons'] = "Иконки сообщения";
+$l['add_post_icon'] = "Добавить новую иконку сообщения";
+$l['add_post_icon_desc'] = "Здесь вы можете добавить иконку для одого нового сообщения";
+$l['add_multiple_post_icons'] = "Добавить несколько иконок сообщения";
+$l['add_multiple_post_icons_desc'] = "Здесь вы можете добавить несколько новых иконок.";
+$l['edit_post_icon'] = "Редактировать иконку сообщения";
+$l['edit_post_icon_desc'] = "Здесь вы можете редактировать иконку сообщения.";
+$l['manage_post_icons'] = "Управление иконками сообщений";
+$l['manage_post_icons_desc'] = "Этот раздел позволяет редактировать, удалять и управлять вашими иконками сообщений.";
+$l['name_desc'] = "Это имя для иконки сообщения";
+$l['image_path'] = "Путь к картинке";
+$l['image_path_desc'] = "Это путь к сообщению изображения иконки. Если вы хотите использовать различные изображения для иконки сообщения  в различных темах, пожалуйста, используйте <strong>{theme}</strong> для указания каталога изображений в каждой теме.";
+$l['save_post_icon'] = "Сохранить иконку сообщения ";
+$l['reset'] = "Сброс";
+$l['path_to_images'] = "Путь к изображениям";
+$l['path_to_images_desc'] = "Это путь к папке, что находятся изображения .";
+$l['show_post_icons'] = "Показать иконки для сообщений ";
+$l['image'] = "Изображение";
+$l['add'] = "Добавить?";
+$l['save_post_icons'] = "Сохранить иконки для сообщений";
+$l['no_post_icons'] = "В настоящее время на вашем форуме нет иконки сообщения.";
+$l['error_missing_name'] = "Вы не ввели имя для этой иконки сообщения ";
+$l['error_missing_path'] = "Вы не ввели путь к этой иконке сообщения";
+$l['error_missing_path_multiple'] = "Вы не ввели путь";
+$l['error_invalid_path'] = "Вы ввели неправильный путь";
+$l['error_no_images'] = "Нет иконок сообщений в указанном каталоге, или все иконки в каталоге уже добавлены.";
+$l['error_none_included'] = "Вы не выбрали любую иконку для включения.";
+$l['error_invalid_post_icon'] = "Указанная иконка не существует.";
+$l['success_post_icon_added'] = "Иконка сообщения была успешно добавлена.";
+$l['success_post_icons_added'] = "Выбранные иконки сообщения были успешно добавлены.";
+$l['success_post_icon_updated'] = "Иконка сообщения была успешно обновлена.";
+$l['success_post_icon_deleted'] = "Иконка сообщения была успешно удалена.";
+$l['confirm_post_icon_deletion'] = "Вы уверены, что хотите удалить эту иконку сообщения?";

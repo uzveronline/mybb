@@ -5,18 +5,16 @@
  *
  */
 
-$l['cache'] = "Cache:";
-$l['cache_manager'] = "Cache Manager";
-$l['cache_manager_description'] = "Here you can manage caches which are used as a method of optimizing MyBB. Rebuilding a cache will take all the necessary data used to create the cache and re-synchronize it. Reloading a cache will reload it into the selected cache handler (disk, eaccelerator, memcache, etc). Reloading is useful when switching from the database or file system to xcache, eaccelerator, or another cache handler.";
-$l['rebuild_cache'] = "Rebuild Cache";
-$l['reload_cache'] = "Reload Cache";
-$l['rebuild_reload_all'] = "(Rebuild & Reload All)";
 
-$l['error_cannot_rebuild'] = "This cache cannot be rebuilt.";
-$l['error_empty_cache'] = "Cache is empty.";
-$l['error_incorrect_cache'] = "Incorrect cache specified.";
-$l['error_no_cache_specified'] = "You did not specify a cache to view.";
-
-$l['success_cache_rebuilt'] = "The cache has been rebuilt successfully.";
-$l['success_cache_reloaded'] = "The cache has been reloaded successfully.";
-
+$l['cache'] = "Кэш:";
+$l['cache_manager'] = "Управление кэшем";
+$l['cache_manager_description'] = "Здесь вы можете управлять кэшем, который используются в качестве метода оптимизации MyBB. Перепостроение кэша будет принимать все необходимые данные, используемые для создания кэш-памяти и выполнит повторную синхронизацию. Перезагрузка кэша повторно загрузит его в выбранный обработчик кэша (disk, eaccelerator, memcache, и т.п.). Перезагрузка полезна при переключении  из базы данных или файловой системы в xcache, eaccelerator или другой обработчик кэша.";
+$l['rebuild_cache'] = "Перестроить кэш";
+$l['reload_cache'] = "Перегрузить кэш";
+$l['rebuild_reload_all'] = "(Перестроить & Перегрузить Всё)";
+$l['error_cannot_rebuild'] = "Кэш перестроить невозможно.";
+$l['error_empty_cache'] = "Кэш пуст.";
+$l['error_incorrect_cache'] = "Некорректное указание кэша .";
+$l['error_no_cache_specified'] = "Вы не указали кэш для отображения.";
+$l['success_cache_rebuilt'] = "Кэш был перестроен успешно.";
+$l['success_cache_reloaded'] = "Кэш был перегружен успешно.";

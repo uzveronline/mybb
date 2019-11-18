@@ -5,22 +5,20 @@
  *
  */
 
-$l['nav_showteam'] = "Forum Team";
-$l['forum_team'] = "Forum Team";
-$l['moderators'] = "Moderators";
-$l['username'] = "Username";
-$l['lastvisit'] = "Last Visit";
+$l['nav_showteam'] = "Команда форума";
+$l['forum_team'] = "Команда форума";
+$l['moderators'] = "Модераторы";
+$l['username'] = "Имя пользователя";
+$l['lastvisit'] = "Последнее посещение";
 $l['email'] = "Email";
-$l['pm'] = "PM";
-$l['mod_forums'] = "Forum(s)";
+$l['pm'] = "ЛС";
+$l['mod_forums'] = "Форум(ы)";
 $l['mod_groups'] = "Group(s)";
-$l['online'] = "Online";
-$l['offline'] = "Offline";
+$l['online'] = "В сети";
+$l['offline'] = "Не в сети";
 $l['away'] = "Away";
-
-$l['group_leaders'] = "Group Leaders";
-$l['group_members'] = "Member(s)";
-
-$l['no_members'] = "No members in this group";
+$l['group_leaders'] = "Лидер(ы)";
+$l['group_members'] = "Участник(и)";
+$l['no_members'] = "Нет участников в этой группе";
 $l['showteam_disabled'] = "The forum team listing functionality has been disabled by the Administrator.";
-$l['error_noteamstoshow'] = "There are no forum staff to be shown.";
+$l['error_noteamstoshow'] = "Нет администрации форума для отображения";

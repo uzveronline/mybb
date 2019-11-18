@@ -5,51 +5,43 @@
  *
  */
 
-$l['forum_announcements'] = "Forum Announcements";
-$l['forum_announcements_desc'] = "Here you can manage the announcements on your board. Global announcements are shown in all forums, whereas ones set for individual forums are shown in that forum and all child forums.";
-$l['add_announcement'] = "Add Announcement";
-$l['add_announcement_desc'] = "Here you can add an announcement for a single forum or all forums.";
-$l['update_announcement'] = "Save Announcement";
-$l['preview_announcement'] = "Preview Announcement";
-$l['update_announcement_desc'] = "Here you can update an announcements details.";
 
-$l['start_date_desc'] = "On this date and time (in GMT), the announcement will appear in the selected forum(s).";
-$l['end_date_desc'] = "On this date and time (in GMT), the announcement will be hidden from view on your forum. You may select never end this announcement until you delete it or edit its end date.";
-$l['forums_to_appear_in_desc'] = "The announcement will appear in the forums selected below. The announcement will appear in the selected forum and all child forums of the selected forum.";
-
-$l['announcement'] = "Announcement";
-$l['global_announcements'] = "Global Announcements";
-
-$l['no_global_announcements'] = "There are currently no global forum announcements.";
-$l['no_forums'] = "There are currently no forums setup to show forum announcements.";
-
-$l['confirm_announcement_deletion'] = "Are you sure you wish to delete this announcement?";
-
-$l['success_announcement_deleted'] = "The selected announcement has been deleted successfully.";
-$l['success_added_announcement'] = "The selected announcement has been created successfully.";
-$l['success_updated_announcement'] = "The selected announcement has been updated successfully.";
-
-$l['error_invalid_announcement'] = "Please input a valid announcement.";
-$l['error_missing_title'] = "You did not enter a title.";
-$l['error_missing_message'] = "You did not enter a message.";
-$l['error_missing_forum'] = "You did not select a forum.";
-$l['error_invalid_start_date'] = "The starting date for the announcement is invalid.";
-$l['error_invalid_end_date'] = "The ending date for the announcement is invalid.";
-$l['error_end_before_start'] = "The ending date must be after the start date.";
-
-$l['add_an_announcement'] = "Add an announcement";
-$l['update_an_announcement'] = "Update an announcement";
-$l['save_announcement'] = "Save Announcement";
-$l['title'] = "Title";
-$l['start_date'] = "Start Date";
-$l['end_date'] = "End Date";
-$l['message'] = "Message";
-$l['forums_to_appear_in'] = "Forums to Appear in";
-$l['allow_html'] = "Allow HTML?";
-$l['allow_mycode'] = "Allow MyCode?";
-$l['allow_smilies'] = "Allow Smilies?";
-$l['time'] = "Time:";
-$l['set_time'] = "Set Time";
-
-$l['announcement_preview'] = 'Announcement Preview';
-
+$l['forum_announcements'] = "Объявления Форумов";
+$l['forum_announcements_desc'] = "Здесь вы можете управлять всеми объявлениями на форумах. Здесь отображены объявления всех форумов, в то время как некоторые объявления установленны для отдельных форумов и отображаются на том форуме и всех его дочерних форумах.";
+$l['add_announcement'] = "Добавить Объявление";
+$l['add_announcement_desc'] = "Здесь вы можете добавить объявление для одного форума или во всех форумах.";
+$l['update_announcement'] = "Сохранить объявление";
+$l['preview_announcement'] = "Предварительный просмотр объявления";
+$l['update_announcement_desc'] = "Здесь вы можете обновить подробности объявления.";
+$l['start_date_desc'] = "В эту дату и время (по Гринвичу), объявление появится в выбранном форуме (ах).";
+$l['end_date_desc'] = "В эту дату и время (по Гринвичу), объявление будет скрыто от просмотра на вашем форуме. Вы можете выбрать постоянное отображение объявления, т.е. пока вы не удалите его или не измените дату его окончания.";
+$l['forums_to_appear_in_desc'] = "Объявление будет появляться на форумах, выбранных ниже. Объявление будет отображаться на выбранном форуме и всех дочерних форумах выбранного форума.";
+$l['announcement'] = "Объявления";
+$l['global_announcements'] = "Глобальные объявления";
+$l['no_global_announcements'] = "Там в настоящее время нет глобальных объявлений на форуме.";
+$l['no_forums'] = "На данный момент нет настройки форумов, чтобы показать объявления на форуме.";
+$l['confirm_announcement_deletion'] = "Вы уверены, что хотите удалить это объявление?";
+$l['success_announcement_deleted'] = "Выбранное объявление было успешно удалено.";
+$l['success_added_announcement'] = "Выбранное объявление успешно создано.";
+$l['success_updated_announcement'] = "Выбранное объявление успешно обновлено.";
+$l['error_invalid_announcement'] = "Пожалуйста, введите действительное объявление.";
+$l['error_missing_title'] = "Вы не ввели название.";
+$l['error_missing_message'] = "Вы не ввели сообщение.";
+$l['error_missing_forum'] = "Вы не выбрали форум.";
+$l['error_invalid_start_date'] = "Дата начала объявления является недействительной.";
+$l['error_invalid_end_date'] = "Дата окончания анонса является недействительной.";
+$l['error_end_before_start'] = "Дата окончания должна быть после даты начала.";
+$l['add_an_announcement'] = "Добавить объявление";
+$l['update_an_announcement'] = "Обновить объявление";
+$l['save_announcement'] = "Сохранить объявление";
+$l['title'] = "Заголовок";
+$l['start_date'] = "Дата начала";
+$l['end_date'] = "Дата окончания";
+$l['message'] = "Сообщение";
+$l['forums_to_appear_in'] = "Форумы для отображения объявления";
+$l['allow_html'] = "Разрешить HTML?";
+$l['allow_mycode'] = "Разрешить ББкоды?";
+$l['allow_smilies'] = "Разрешить смайлики?";
+$l['time'] = "Время:";
+$l['set_time'] = "Установить время";
+$l['announcement_preview'] = "Предпросмотр объявления";

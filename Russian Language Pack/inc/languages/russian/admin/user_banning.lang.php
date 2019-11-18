@@ -6,57 +6,51 @@
  */
 
 // Tabs
-$l['banning'] = "Banning";
-$l['banned_accounts'] = "Banned Accounts";
-$l['banned_accounts_desc'] = "Here you can manage user accounts which are banned from access to the board.";
-$l['ban_a_user'] = "Ban a User";
-$l['ban_a_user_desc'] = "Here you can ban a user.";
-$l['edit_ban'] = "Edit Ban";
-$l['edit_ban_desc'] = "Here you can edit the reason and length of currently banned users.";
-$l['banned_ips'] = "Banned IPs";
-$l['disallowed_usernames'] = "Disallowed Usernames";
-$l['disallowed_email_addresses'] = "Disallowed Email Addresses";
-
+$l['banning'] = "Баны";
+$l['banned_accounts'] = "Забаненные акаунты";
+$l['banned_accounts_desc'] = "Здесь Вы можете управлять учетными записями пользователей, которым вы запретили доступ к форумам.";
+$l['ban_a_user'] = "Забанить пользователя";
+$l['ban_a_user_desc'] = "Здесь вы можете банить пользователей.";
+$l['edit_ban'] = "Редактировать бан";
+$l['edit_ban_desc'] = "Здесь вы можете редактировать причину и продолжительность запрещенных в настоящий момент пользователей.";
+$l['banned_ips'] = "Забаненные IP";
+$l['disallowed_usernames'] = "Запрещённые имена пользователя";
+$l['disallowed_email_addresses'] = "Запрещнные Email адреса";
 // Errors
-$l['error_invalid_ban'] = "You have selected an invalid ban to edit.";
-$l['error_invalid_username'] = "The username you have entered is invalid and does not exist.";
-$l['error_no_perm_to_ban'] = "You do not have permission to ban this user.";
-$l['error_already_banned'] = "This user already belongs to a banned group and cannot be added to a new one.";
-$l['error_ban_self'] = "You cannot ban yourself.";
-$l['error_no_reason'] = "You did not enter a reason to ban this user.";
-
+$l['error_invalid_ban'] = "Вы выбрали неверный бан для редактирования.";
+$l['error_invalid_username'] = "Введённое имя пользователя недействительно или не существует.";
+$l['error_no_perm_to_ban'] = "У вас нет разрешения банить этого пользователя.";
+$l['error_already_banned'] = "Этот пользователь уже принадлежит к запрещенной группе и не может быть добавлен снова.";
+$l['error_ban_self'] = "Вы не можете запретить себя.";
+$l['error_no_reason'] = "Вы не ввели причину бана этого пользователя.";
 // Success
-$l['success_ban_lifted'] = "The selected ban has been lifted successfully.";
-$l['success_banned'] = "The selected user has been banned successfully.";
-$l['success_ban_updated'] = "The selected ban has been updated successfully.";
-$l['success_pruned'] = "The selected user's posts and threads have been pruned successfully.";
-
+$l['success_ban_lifted'] = "Выбранный бан был успешно снят.";
+$l['success_banned'] = "Выбранный пользователь был успешно забанен.";
+$l['success_ban_updated'] = "Выбранный бан был успешно обновлен.";
+$l['success_pruned'] = "Выбранные сообщения и темы пользователя были успешно очищены.";
 // Confirm
-$l['confirm_lift_ban'] = "Are you sure you want to lift this ban?";
-$l['confirm_prune'] = "Are you sure you want to prune all threads and posts created by this user?";
-
+$l['confirm_lift_ban'] = "Вы уверены, что хотите снять этот бан?";
+$l['confirm_prune'] = "Вы уверены, что вы хотите очистить все темы и сообщения, созданные этим пользователем?";
 //== Pages
 //= Add / Edit
-$l['ban_username'] = "Username <em>*</em>";
-$l['autocomplete_enabled'] = "Auto-complete is enabled in this field.";
-$l['ban_reason'] = "Ban Reason";
-$l['ban_group'] = "Banned Group <em>*</em>";
-$l['ban_group_desc'] = "In order for this user to be banned they must be moved to a banned group.";
-$l['ban_time'] = "Ban Length <em>*</em>";
-
+$l['ban_username'] = "Имя пользовтаеля <em>*</em>";
+$l['autocomplete_enabled'] = "В этом поле включено автозаполнение.";
+$l['ban_reason'] = "Причина бана";
+$l['ban_group'] = "Группа забаненных <em>*</em>";
+$l['ban_group_desc'] = "Для того, чтобы забанить этого пользователя его необходимо переместиь в группу забаненныз.";
+$l['ban_time'] = "Продолжительность запрета <em>*</em>";
 //= Index
-$l['user'] = "User";
-$l['moderation'] = "Moderation";
-$l['ban_lifts_on'] = "Ban Lifts On";
-$l['time_left'] = "Time Left";
-$l['permenantly'] = "permanently";
-$l['na'] = "N/A";
-$l['for'] = "for";
-$l['bannedby_x_on_x'] = "<strong>{1}</strong><br /><small>Banned by {2} on {3} {4}</small>";
-$l['lift'] = "Lift";
-$l['no_banned_users'] = "You don't have any banned users at the moment.";
-$l['prune_threads_and_posts'] = "Prune Threads &amp; Posts";
-
+$l['user'] = "Пользователь";
+$l['moderation'] = "Модерация";
+$l['ban_lifts_on'] = "Бан поднят";
+$l['time_left'] = "Оставшееся время";
+$l['permenantly'] = "постоянно";
+$l['na'] = "Н/Д";
+$l['for'] = "на";
+$l['bannedby_x_on_x'] = "<strong>{1}</strong><br /><small>Забанил {2} - {3} {4}</small>";
+$l['lift'] = "снять бан";
+$l['no_banned_users'] = "В настоящий момент у вас нет запрещённых пользователей";
+$l['prune_threads_and_posts'] = "Очистить Темы &amp; Сообщения";
 // Buttons
-$l['ban_user'] = "Ban User";
-$l['update_ban'] = "Update Ban";
+$l['ban_user'] = "Забанить пользователя";
+$l['update_ban'] = "Обновить бан";

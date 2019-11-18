@@ -6,44 +6,40 @@
  */
 
 // Tabs
-$l['moderation_queue'] = "Moderation Queue";
-$l['threads'] = "Threads";
-$l['threads_desc'] = "Here you can view and approve threads in the moderation queue.";
-$l['posts'] = "Posts";
-$l['posts_desc'] = "Here you can view and approve posts in the moderation queue.";
-$l['attachments'] = "Attachments";
-$l['attachments_desc'] = "Here you can view and approve attachments in the moderation queue.";
-$l['threads_awaiting_moderation'] = "Threads Awaiting Moderation";
-$l['posts_awaiting_moderation'] = "Posts Awaiting Moderation";
-$l['attachments_awaiting_moderation'] = "Attachments Awaiting Moderation";
 
+$l['moderation_queue'] = "Очередь Модерации";
+$l['threads'] = "Темы";
+$l['threads_desc'] = "Здесь Вы можете просмотреть и одобрить темы, ожидающих одобрения.";
+$l['posts'] = "Сообщения";
+$l['posts_desc'] = "Здесь Вы можете просмотреть и утвердить сообзщения в очереди модерации.";
+$l['attachments'] = "Вложения";
+$l['attachments_desc'] = "Здесь Вы можете просмотреть и одобрить вложения в очереди модерации.";
+$l['threads_awaiting_moderation'] = "Темы, ожидающие модерации";
+$l['posts_awaiting_moderation'] = "Сообщения, ожидающие модерации";
+$l['attachments_awaiting_moderation'] = "Вложения, ожидающие модерации";
 // Errors
-$l['error_no_posts'] = "There are no posts currently awaiting moderation.";
-$l['error_no_attachments'] = "There are no attachments currently awaiting moderation.";
-$l['error_no_threads'] = "There are no threads, posts or attachments currently awaiting moderation.";
-
+$l['error_no_posts'] = "В настоящее время нет сообщений, ожидающих модерации";
+$l['error_no_attachments'] = "В настоящее время нет вложений, ожидающих модерации";
+$l['error_no_threads'] = "Нет ни одной темы, сообщения или вложения в настоящее время ожидающих модерации.";
 // Success
-$l['success_threads'] = "The selected threads have been moderated successfully.";
-$l['success_posts'] = "The selected posts have been moderated successfully.";
-$l['success_attachments'] = "The selected attachments have been moderated successfully.";
-
+$l['success_threads'] = "Выбранные темы были успешно премодерированы.";
+$l['success_posts'] = "Выбранные сообщения были успешно премодерированы.";
+$l['success_attachments'] = "Выбранные вложения были успешно премодерированы.";
 // Pages
-$l['subject'] = "Subject";
-$l['author'] = "Author";
-$l['posted'] = "Posted";
-$l['ignore'] = "Ignore";
-$l['approve'] = "Approve";
-$l['forum'] = "Forum:";
-$l['thread'] = "Thread:";
-$l['post'] = "Post:";
+$l['subject'] = "Тема";
+$l['author'] = "Автор";
+$l['posted'] = "Опубликовано";
+$l['ignore'] = "Игнор";
+$l['approve'] = "Одобрить";
+$l['forum'] = "Форум:";
+$l['thread'] = "Тема:";
+$l['post'] = "Сообщение:";
 $l['re'] = "RE:";
-$l['filename'] = "File Name";
-$l['uploadedby'] = "Uploaded by";
-$l['controls'] = "Controls";
-
+$l['filename'] = "Имя файла";
+$l['uploadedby'] = "Загрузил";
+$l['controls'] = "Управление";
 // Buttons
-$l['mark_as_ignored'] = "Mark all as ignored";
-$l['mark_as_deleted'] = "Mark all for deletion";
-$l['mark_as_approved'] = "Mark all as approved";
-$l['perform_action'] = "Perform Actions";
-
+$l['mark_as_ignored'] = "Отметить все как игнорируемые";
+$l['mark_as_deleted'] = "Отметить все для удаления";
+$l['mark_as_approved'] = "Отметить все как одобренные";
+$l['perform_action'] = "Выполните действия";

@@ -5,30 +5,26 @@
  *
  */
 
-$l['eventdata_missing_name'] = 'The name for the event is missing. Please enter an event name.';
-$l['eventdata_missing_description'] = 'The description for the event is missing. Please enter an event description.';
 
-$l['eventdata_invalid_start_date'] = 'The event start date you entered is invalid. You need to make sure you specify the day, month and year as well as ensure the day you entered is valid for the particular month.';
-$l['eventdata_invalid_start_year'] = "Events can only be created in the next 5 years. Please select a reasonable start year from the list.";
-$l['eventdata_invalid_start_month'] = 'The start month you entered is not a valid month. Please enter a valid start month.';
-
-$l['eventdata_invalid_end_date'] = 'The event end date you entered is invalid. You need to make sure you specify the day, month and year as well as ensure the day you entered is valid for the particular month.';
-$l['eventdata_invalid_end_year'] = "Events can only be created in the next 5 years. Please select a reasonable end year from the list.";
-$l['eventdata_invalid_end_month'] = 'The end month you entered is not a valid month. Please and enter a valid end month.';
-$l['eventdata_invalid_end_day'] = 'The end day you entered is not a valid day. The day you selected is probably greater than the number of days in this month.';
-
-$l['eventdata_cant_specify_one_time'] = "If you are specifying an event start time you need to enter an event end time.";
-$l['eventdata_start_time_invalid'] = "The start time you entered is invalid. Valid examples are 12am, 12:01am, 00:01.";
-$l['eventdata_end_time_invalid'] = "The end time you entered is invalid. Valid examples are 12am, 12:01am, 00:01.";
-$l['eventdata_invalid_timezone'] = "The time zone you selected for this event is invalid.";
-$l['eventdata_end_in_past'] = "The end date or time for your event is before the starting date or time.";
-
-$l['eventdata_only_ranged_events_repeat'] = "Only ranged events (events with a start and finish date) can repeat.";
-$l['eventdata_invalid_repeat_day_interval'] = "You have entered an invalid day repeat interval.";
-$l['eventdata_invalid_repeat_week_interval'] = "You have entered an invalid week repeat interval.";
-$l['eventdata_invalid_repeat_weekly_days'] = "You did not select any weekdays for this event to occur on.";
-$l['eventdata_invalid_repeat_month_interval'] = "You have entered an invalid month repeat interval.";
-$l['eventdata_invalid_repeat_year_interval'] = "You have entered an invalid year repeat interval.";
-$l['eventdata_event_wont_occur'] = "Using the start and end times along with the event repetition settings, this event won't occur.";
-
-$l['eventdata_no_permission_private_event'] = "You do not have permission to post private events.";
+$l['eventdata_missing_name'] = "Название события отсутствует. Пожалуйста, введите название события.";
+$l['eventdata_missing_description'] = "Описание для события отсутствует. Пожалуйста, введите описание события.";
+$l['eventdata_invalid_start_date'] = "Вы ввели неверную дату начала события. Вы должны убедиться, что указали день, месяц и год, а также что этот день действителен для данного месяца.";
+$l['eventdata_invalid_start_year'] = "События могут быть созданы только для следующих 5 лет. Пожалуйста, выберите разумное начало года из списка.";
+$l['eventdata_invalid_start_month'] = "Месяц начала события не является действительным. Пожалуйста, введите действительный месяц .";
+$l['eventdata_invalid_end_date'] = "Неправильная дата завершения события. Вы должны убедиться, что вы указали день, месяц и год, а также что день действителен для данного месяца.";
+$l['eventdata_invalid_end_year'] = "События могут быть созданы только в течение следующих 5 лет. Пожалуйста, выберите разумный конец года из списка.";
+$l['eventdata_invalid_end_month'] = "Вы ввели неверный месяц завершения события. Пожалуйста, введите правильный месяц.";
+$l['eventdata_invalid_end_day'] = "Вы ввели неверный день завершения события. Вероятно этот день не существует в выбранном месяце.";
+$l['eventdata_cant_specify_one_time'] = "Если Вы ввели дату начала события, то выберите дату завершения события.";
+$l['eventdata_start_time_invalid'] = "Вы ввели неверное время начала события. Например 12am, 12:01am, 00:01.";
+$l['eventdata_end_time_invalid'] = "Вы ввели неверное время окончания события. Например  12am, 12:01am, 00:01.";
+$l['eventdata_invalid_timezone'] = "Вы выбрали для этого события недействительный часовой пояс.";
+$l['eventdata_end_in_past'] = "Окончание дата или времени для вашего мероприятия установлено до начала даты  или времени.";
+$l['eventdata_only_ranged_events_repeat'] = "Только итервалы событий (с фиксированными датами начала и конца) могут повторяться.";
+$l['eventdata_invalid_repeat_day_interval'] = "Вы ввели неверный дневной интервал повтора.";
+$l['eventdata_invalid_repeat_week_interval'] = "Вы ввели неверный еженедельный интервал повтора.";
+$l['eventdata_invalid_repeat_weekly_days'] = "Вы не ввели дни недели, для которых повторяется это событие.";
+$l['eventdata_invalid_repeat_month_interval'] = "Вы ввели неверный интервал ежемесячного повтора события.";
+$l['eventdata_invalid_repeat_year_interval'] = "Вы ввели неверный интервал ежегодного повтора события.";
+$l['eventdata_event_wont_occur'] = "Для заданных дат начала и конца, наряду с настройками повторения событий, это событие никогда не произойдёт.";
+$l['eventdata_no_permission_private_event'] = "У вас нет прав для создания личных событий.";

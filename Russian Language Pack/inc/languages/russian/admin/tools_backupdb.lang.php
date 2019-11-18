@@ -6,53 +6,47 @@
  */
 
 
-$l['database_backups'] = "Database Backups";
-$l['database_backups_desc'] = "Here you find a listing of the database backups that are currently stored on your web server in the MyBB Backups directory.";
-$l['new_database_backup'] = "New Database Backup";
-$l['new_backup'] = "New Backup";
-$l['new_backup_desc'] = "Here you can backup a copy of your database.";
-$l['backups'] = "Backups";
-$l['existing_database_backups'] = "Existing Database Backups";
-
-$l['backup_saved_to'] = "The backup was saved to:";
-$l['download'] = "Download";
-$l['table_selection'] = "Table Selection";
-$l['backup_options'] = "Backup Options";
-$l['table_select_desc'] = "You may select the database tables you wish to perform this action on here. Hold down CTRL to select multiple tables.";
-$l['select_all'] = "Select All";
-$l['deselect_all'] = "Deselect All";
-$l['select_forum_tables'] = "Select Forum Tables";
-$l['file_type'] = "File Type";
-$l['file_type_desc'] = "Select the file type you would like the database backup saved as.";
-$l['gzip_compressed'] = "GZIP Compressed";
-$l['plain_text'] = "Plain Text";
-$l['save_method'] = "Save Method";
-$l['save_method_desc'] = "Select the method you would like to use to save the backup.";
-$l['backup_directory'] = "Backup Directory";
-$l['backup_contents'] = "Backup Contents";
-$l['backup_contents_desc'] = "Select the information that you would like included in the backup.";
-$l['structure_and_data'] = "Structure and Data";
-$l['structure_only'] = "Structure Only";
-$l['data_only'] = "Data only";
-$l['analyze_and_optimize'] = "Analyze and Optimize Selected Tables";
-$l['analyze_and_optimize_desc'] = "Would you like the selected tables to be analyzed and optimized during the backup?";
-$l['perform_backup'] = "Perform Backup";
-$l['backup_filename'] = "Backup Filename";
-$l['file_size'] = "File Size";
-$l['creation_date'] = "Creation Date";
-$l['no_backups'] = "There are currently no backups made yet.";
-
-$l['error_file_not_specified'] = "You did not specify a database backup to download.";
-$l['error_invalid_backup'] = "The back up file you selected is either invalid or does not exist.";
-$l['error_backup_doesnt_exist'] = "The specified backup does not exist";
-$l['error_backup_not_deleted'] = "The backup has not been deleted.";
-$l['error_tables_not_selected'] = "You did not select any tables to backup.";
-$l['error_no_zlib'] = "The zlib library for PHP is not enabled - you cannot create GZIP compressed backups.";
-
-$l['alert_not_writable'] = "Your backups directory (within the Admin CP directory) is not writable. You cannot save backups on the server.";
-
-$l['confirm_backup_deletion'] = "Are you sure you wish to delete this backup?";
-
-$l['success_backup_deleted'] = "The backup has been deleted successfully.";
-$l['success_backup_created'] = "The backup has been created successfully.";
-
+$l['database_backups'] = "Бэкапы БД";
+$l['database_backups_desc'] = "Здесь вы найдете список резервных копий баз данных, которые в настоящее время хранятся на вашем веб-сервере MyBB в каталоге Backups.";
+$l['new_database_backup'] = "Новый бэкап БД";
+$l['new_backup'] = "Новый бэкап";
+$l['new_backup_desc'] = "Здесь вы можете создать резервную копию вашей базы данных.";
+$l['backups'] = "Бэкапы";
+$l['existing_database_backups'] = "Существующие бэкапы БД";
+$l['backup_saved_to'] = "Резервная копия была сохранена в:";
+$l['download'] = "Загрузить";
+$l['table_selection'] = "Выбор таблиц";
+$l['backup_options'] = "Опции резервирования";
+$l['table_select_desc'] = "Вы можете выбрать таблицы базы данных для резервирования. Удерживайте нажатой клавишу CTRL для выбора нескольких таблиц.";
+$l['select_all'] = "Выбрать ВСЕ";
+$l['deselect_all'] = "Оменить ВСЕ";
+$l['select_forum_tables'] = "Выбор таблиц форума";
+$l['file_type'] = "Тип файла";
+$l['file_type_desc'] = "Выберите тип файла, в котором вы хотели бы сохранить резервную копию БД.";
+$l['gzip_compressed'] = "сжатый GZIP";
+$l['plain_text'] = "Простой текст";
+$l['save_method'] = "Метод сохранения";
+$l['save_method_desc'] = "Выберите метод для сохранения резервной копии.";
+$l['backup_directory'] = "В директорию бэкапа";
+$l['backup_contents'] = "Содержание резервной копии";
+$l['backup_contents_desc'] = "Выберите информацию для включения в резервную копию.";
+$l['structure_and_data'] = "Структура и данные";
+$l['structure_only'] = "Только структура";
+$l['data_only'] = "Только данные";
+$l['analyze_and_optimize'] = "Анализировать и оптимизировать отмеченные таблицы";
+$l['analyze_and_optimize_desc'] = "Выбранные таблицы анализировать и оптимизировать во время резервного копирования?";
+$l['perform_backup'] = "Выполнить бэкап";
+$l['backup_filename'] = "Имя файла бэкапа";
+$l['file_size'] = "Размер файла";
+$l['creation_date'] = "Дата создания";
+$l['no_backups'] = "В настоящее время еще нет резервных копий.";
+$l['error_file_not_specified'] = "Вы не указали резервную копию БД для загрузки.";
+$l['error_invalid_backup'] = "Выбранный файл резервной копии либо поврежден или не существует.";
+$l['error_backup_doesnt_exist'] = "Указанная резервная копия не существует.";
+$l['error_backup_not_deleted'] = "Резервная копия не удалена.";
+$l['error_tables_not_selected'] = "Вы не выбрали ни одной таблицы для резервного копирования.";
+$l['error_no_zlib'] = "Библиотека zlib для PHP недоступна - Вы не можете создать сжатый GZIP архив бэкапа.";
+$l['alert_not_writable'] = "Ваша директория для резервирования (внутри директории ACP) не имеет прав на запись. Вы не можете сохранять резервные копии на сервере.";
+$l['confirm_backup_deletion'] = "Вы уверены, что хотите удалить эту резервную копию?";
+$l['success_backup_deleted'] = "Резервная копия была удалена успешно.";
+$l['success_backup_created'] = "Резервная копия была создана успешно.";

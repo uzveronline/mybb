@@ -5,59 +5,52 @@
  *
  */
 
-$l['languages'] = "Languages";
-$l['languages_desc'] = "The language packs you have installed on your forum are shown below. You can choose to edit the language files, edit the files with another language, or edit the language's properties.";
-$l['find_language_packs'] = "Find Language Packs";
-$l['language_files'] = "Language Files";
-$l['language_files_desc'] = "Below are the files within the selected language, for both the front-end and the admin control panel. Here you can choose to edit these files.";
-$l['quick_phrases'] = "Quick Phrases";
-$l['quick_phrases_desc'] = "Quick access to commonly modified language phrases.";
 
-$l['edit_with'] = "Edit with {1}";
-$l['edit_language_variables'] = "Edit Language Variables";
-$l['edit_language_variables_desc'] = "Here you can edit the different language strings to your liking.";
-$l['edit_properties_desc'] = "Here you can edit a language pack properties.";
-$l['installed_language_packs'] = "Installed Language Packs";
+$l['languages'] = "Языки";
+$l['languages_desc'] = "Языковые пакеты, установленные на вашем форуме, приведены ниже. Вы можете редактировать языковые файлы, редактировать файлы сравнивая с другим языком, или изменить свойства языка.";
+$l['find_language_packs'] = "Поиск языкового пакета";
+$l['language_files'] = "Файлы языка";
+$l['language_files_desc'] = "Ниже перечислены файлы в выбранном языке, доступные и для фронтенда и для панели управления администратора. Здесь вы можете отредактировать эти файлы.";
+$l['quick_phrases'] = "Быстрые фразы";
+$l['quick_phrases_desc'] = "Быстрый доступ и модификация к наиболее часто фразам.";
+$l['edit_with'] = "Редактировать с {1}";
+$l['edit_language_variables'] = "Редактирование языковых переменных";
+$l['edit_language_variables_desc'] = "Здесь вы можете редактировать различные строки языка по своему вкусу.";
+$l['edit_properties_desc'] = "Здесь вы можете редактировать свойства языкового пакета .";
+$l['installed_language_packs'] = "Установленные пакеты языков";
 $l['front_end'] = "Front End";
-$l['admin_cp'] = "Admin CP";
-$l['save_language_file'] = "Save Language File";
-$l['nav_editing_set'] = "Editing Language Set Properties";
-$l['edit_properties'] = "Edit Language Pack Properties";
-$l['friendly_name'] = "Friendly Name";
-$l['language_in_html'] = "Language in &lt;html&gt; tag";
-$l['charset'] = "Character Set";
-$l['admin'] = "Contains Admin CP language variables?";
-$l['rtl'] = "Right-To-Left?";
-
-$l['quickphrases_agreement'] = 'Registration Agreement - Title';
-$l['quickphrases_agreement_1'] = 'Registration Agreement - Paragraph 1';
-$l['quickphrases_agreement_2'] = 'Registration Agreement - Paragraph 2';
-$l['quickphrases_agreement_3'] = 'Registration Agreement - Paragraph 3';
-$l['quickphrases_agreement_4'] = 'Registration Agreement - Paragraph 4';
-$l['quickphrases_agreement_5'] = 'Registration Agreement - Paragraph 5';
-
-$l['quickphrases_error_nopermission_guest_1'] = 'No Permissions Message - Paragraph 1';
-$l['quickphrases_error_nopermission_guest_2'] = 'No Permissions Message - Paragraph 2';
-$l['quickphrases_error_nopermission_guest_3'] = 'No Permissions Message - Paragraph 3';
-$l['quickphrases_error_nopermission_guest_4'] = 'No Permissions Message - Paragraph 4';
-
-$l['no_languages'] = "No Languages";
-$l['no_language_files_front_end'] = "There are no Front End Language files found.";
-$l['no_language_files_admin_cp'] = "There are no Admin CP Language files found.";
-
-$l['error_invalid_set'] = "Invalid language set specified.";
-$l['error_invalid_file'] = "Invalid language file specified.";
-$l['error_cannot_write_to_file'] = "Cannot write to file.  Check the file permissions for this language set and try again";
-$l['error_folders_fail'] = "There was problem accessing requested language pack folders. Please make sure they exists and are writable.";
-
-$l['alert_note_cannot_write'] = "Before you can edit the language file, you must CHMOD the files in this language set so that the server has permission to write to them.";
-
-$l['success_langfile_updated'] = "The language file has been updated successfully.";
-$l['success_langprops_updated'] = "The language properties have been updated successfully.";
-$l['success_quickphrases_updated'] = "The quick language phrases have been updated successfully.";
-
-$l['issues'] = "Issues";
-$l['phrases'] = "Phrases";
-$l['issues_ok'] = "It seems like everything should be ok here.";
-$l['issues_nothingtocompare'] = "There is nothing to compare here.";
-$l['issues_warning'] = "This file may require your attention.\nPlease make sure to check it.";
+$l['admin_cp'] = "Панель управления администратора";
+$l['save_language_file'] = "Сохранить файл языка";
+$l['nav_editing_set'] = "Редактирование свойств установленного языка";
+$l['edit_properties'] = "Редактирование свойств языкового пакета";
+$l['friendly_name'] = "Наименование";
+$l['language_in_html'] = "Язык в &lt;html&gt; тэге";
+$l['charset'] = "Набор символов";
+$l['admin'] = "Содержит переменные языка ACP ?";
+$l['rtl'] = "Справа налево?";
+$l['quickphrases_agreement'] = "Соглашение о регистрации - Заголовок";
+$l['quickphrases_agreement_1'] = "Соглашение о регистрации  - Параграф 1";
+$l['quickphrases_agreement_2'] = "Соглашение о регистрации  - Параграф 2";
+$l['quickphrases_agreement_3'] = "Соглашение о регистрации  - Параграф 3";
+$l['quickphrases_agreement_4'] = "Соглашение о регистрации - Параграф 4";
+$l['quickphrases_agreement_5'] = "Соглашение о регистрации - Параграф 5";
+$l['quickphrases_error_nopermission_guest_1'] = "Сообщение  Нет права доступа - Параграф 1";
+$l['quickphrases_error_nopermission_guest_2'] = "Сообщение  Нет права доступа - Параграф 2";
+$l['quickphrases_error_nopermission_guest_3'] = "Сообщение  Нет права доступа - Параграф 3";
+$l['quickphrases_error_nopermission_guest_4'] = "Сообщение  Нет права доступа - Параграф 4";
+$l['no_languages'] = "Нет языков";
+$l['no_language_files_front_end'] = "Языковых файлов фронтэенда не найдено.";
+$l['no_language_files_admin_cp'] = "Языковых файлов ACP не найдено.";
+$l['error_invalid_set'] = "Неверный языковый пакет";
+$l['error_invalid_file'] = "Неверный файл";
+$l['error_cannot_write_to_file'] = "Невозможно записать файл. Проверьте права на этот файл языкового пакета и попробуйте снова";
+$l['error_folders_fail'] = "Был проблема доступа к запрошенной папке языкового пакета. Пожалуйста, убедитесь, что она существует и доступна для записи.";
+$l['alert_note_cannot_write'] = "Перед редактированием языковых файлов, вы должны поставить CHMOD 777 на все файлы языкового пакета, чтобы сервер мог записать в них.";
+$l['success_langfile_updated'] = "Языковой файл был успешно обновлен.";
+$l['success_langprops_updated'] = "Свойства языка были успешно обновлены.";
+$l['success_quickphrases_updated'] = "Языковый пакет кратких фраз был успешно обновлен.";
+$l['issues'] = "Проблемы";
+$l['phrases'] = "Фразы";
+$l['issues_ok'] = "Похоже, что здесь все должно быть нормально .";
+$l['issues_nothingtocompare'] = "Здесь нет ничего для сравнения";
+$l['issues_warning'] = 'Этот файл может потребовать вашего внимания.\тПожалуйста, не забудьте проверить его.';

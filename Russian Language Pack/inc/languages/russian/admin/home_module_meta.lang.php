@@ -5,20 +5,18 @@
  *
  */
 
-$l['home'] = "Home";
 
-$l['dashboard'] = "Dashboard";
-$l['preferences'] = "Preferences";
-$l['mybb_credits'] = "MyBB Credits";
-
-$l['add_new_forum'] = "Add New Forum";
-$l['search_for_users'] = "Search for Users";
-$l['themes'] = "Themes";
-$l['templates'] = "Templates";
-$l['plugins'] = "Plugins";
-$l['database_backups'] = "Database Backups";
-$l['quick_access'] = "Quick Access";
-$l['online_admins'] = "Online Admins";
-$l['ipaddress'] = "IP Address:";
-$l['mybb_documentation'] = "MyBB Documentation";
-
+$l['home'] = "Начало";
+$l['dashboard'] = "Рабочий стол";
+$l['preferences'] = "Предпочтения";
+$l['mybb_credits'] = "MyBB уважение";
+$l['add_new_forum'] = "Добавить новый форум";
+$l['search_for_users'] = "Поиск пользователей";
+$l['themes'] = "Темы";
+$l['templates'] = "Шаблоны";
+$l['plugins'] = "Плагины";
+$l['database_backups'] = "Бэкапы БД";
+$l['quick_access'] = "Быстрый доступ";
+$l['online_admins'] = "Администраторы онлайн";
+$l['ipaddress'] = "IP адрес:";
+$l['mybb_documentation'] = "MyBB документация";

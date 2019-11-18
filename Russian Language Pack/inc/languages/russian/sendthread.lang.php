@@ -5,13 +5,11 @@
  *
  */
 
-$l['nav_sendthread'] = "Send Thread to a Friend";
-
-$l['send_thread'] = "Send To Friend";
-$l['recipient'] = "Recipient:";
-$l['recipient_note'] = "Enter your friends email address here.";
-$l['subject'] = "Subject:";
-$l['message'] = "Message:";
-$l['error_nosubject'] = "You are required to enter a subject for the message to send your thread";
-$l['error_nomessage'] = "You are required to enter a message before you can send this thread to your friend";
-
+$l['nav_sendthread'] = "Отправить тему другу";
+$l['send_thread'] = "Отправить другу";
+$l['recipient'] = "Получатель:";
+$l['recipient_note'] = "Введите здесь email адрес друга";
+$l['subject'] = "Тема:";
+$l['message'] = "Сообщение:";
+$l['error_nosubject'] = "Вы должны ввести тему для сообщения, чтобы отправить вашу тему";
+$l['error_nomessage'] = "Вы должны ввести сообщение, прежде чем вы сможете отправить эту тему другу";

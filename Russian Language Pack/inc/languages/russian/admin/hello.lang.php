@@ -8,16 +8,13 @@
  *
  */
 
-$l['hello_desc'] = 'A sample plugin that allows you to create messages on the index page and appends them to each post.';
 
-$l['setting_group_hello'] = 'Hello World!';
-$l['setting_group_hello_desc'] = 'Settings for Hello World! Plugin.';
-
-$l['setting_hello_display1'] = 'Display Message Index';
-$l['setting_hello_display1_desc'] = 'Set to no if you do not want to display the messages on index.';
-
-$l['setting_hello_display2'] = 'Display Message Postbit';
-$l['setting_hello_display2_desc'] = 'Set to no if you do not want to display the messages below every post.';
-
-$l['hello_uninstall'] = 'Hello World! Uninstallation';
-$l['hello_uninstall_message'] = 'Do you wish to drop all messages from the database?';
+$l['hello_desc'] = "Образец плагина, который позволяет создавать сообщения на главной странице и добавить их к каждому сообщению.";
+$l['setting_group_hello'] = "Hello World!";
+$l['setting_group_hello_desc'] = "параметры плагина Hello World!.";
+$l['setting_hello_display1'] = "Отображение сообщений на главной";
+$l['setting_hello_display1_desc'] = "Установите нет, если вы не хотите отображать сообщения на главной.";
+$l['setting_hello_display2'] = "Отображение сообщений Postbit";
+$l['setting_hello_display2_desc'] = "Установите в нет, если вы не хотите, чтобы отобразить сообщения ниже каждого сообщения.";
+$l['hello_uninstall'] = "Hello World! удаление";
+$l['hello_uninstall_message'] = "Вы хотите, чтобы удалить все сообщения из базы данных?";

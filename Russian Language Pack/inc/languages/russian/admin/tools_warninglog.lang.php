@@ -6,46 +6,42 @@
  */
 
 
-$l['warning_logs'] = "Warning Logs";
-$l['warning_logs_desc'] = "This section allows you to view a history of warnings issued to users.";
-$l['warned_user'] = "Warned User";
-$l['warning'] = "Warning";
-$l['date_issued'] = "Date Issued";
-$l['expires'] = "Expires";
-$l['expiry_date'] = "Expiry Date";
-$l['issued_date'] = "Issued Date";
-$l['issued_by'] = "Issued By";
-$l['details'] = "Details";
-$l['filter_warning_logs'] = "Filter Warning Logs";
-$l['filter_warned_user'] = "Warned user:";
-$l['filter_issued_by'] = "Warning issued by:";
-$l['filter_reason'] = "Reason contains:";
-$l['sort_by'] = "Sort By:";
-$l['results_per_page'] = "Results Per Page:";
-$l['view'] = "View";
-$l['no_warning_logs'] = "There are no warning logs to view.";
-$l['revoked'] = "Revoked ";
-$l['post'] = "Post";
-
-$l['asc'] = "Ascending";
-$l['desc'] = "Descending";
-
-$l['in'] = "in";
-$l['order'] = "order";
-
-$l['warning_details'] = "Warning Details";
-$l['warning_note'] = "Administrative Notes";
-$l['already_expired'] = "Expired";
-$l['warning_revoked'] = "Revoked";
-$l['warning_active'] = "Active";
-$l['error_invalid_warning'] = "An invalid warning was specified.";
-
-$l['revoke_warning'] = "Revoke this Warning";
-$l['revoke_warning_desc'] = "To revoke this warning please enter a reason below. This will not remove any bans or suspensions imposed by this warning.";
-$l['reason'] = "Reason:";
-$l['warning_is_revoked'] = "This warning has been revoked";
-$l['revoked_by'] = "Revoked by:";
-$l['date_revoked'] = "Date Revoked:";
-$l['error_already_revoked'] = "This warning has already been revoked.";
-$l['error_no_revoke_reason'] = "You did not enter a reason as to why you want to revoke this warning.";
-$l['redirect_warning_revoked'] = "This warning has been revoked and the users warning points decreased successfully.";
+$l['warning_logs'] = "Журнал предупреждений";
+$l['warning_logs_desc'] = "Этот раздел позволяет просматривать историю предупреждений, выданных пользователям.";
+$l['warned_user'] = "Предупреждённый Пользователь";
+$l['warning'] = "Предупреждение";
+$l['date_issued'] = "Дата выдачи";
+$l['expires'] = "Истекает";
+$l['expiry_date'] = "Срок действия";
+$l['issued_date'] = "Дата выпуска";
+$l['issued_by'] = "Выдан";
+$l['details'] = "Подробности";
+$l['filter_warning_logs'] = "Фильтровать журнал предупреждений";
+$l['filter_warned_user'] = "Предупреждённый пользователь:";
+$l['filter_issued_by'] = "Предупреждение, вынесенное:";
+$l['filter_reason'] = "Причина содержит:";
+$l['sort_by'] = "Сортировать по:";
+$l['results_per_page'] = "Результатов на странице:";
+$l['view'] = "Просмотр";
+$l['no_warning_logs'] = "Нет журналов предупреждений для просмотра.";
+$l['revoked'] = "Отозван ";
+$l['post'] = "Сообщение";
+$l['asc'] = "По возрастанию";
+$l['desc'] = "По убыванию";
+$l['in'] = "в";
+$l['order'] = "порядок";
+$l['warning_details'] = "Подробности предупреждения";
+$l['warning_note'] = "Примечания";
+$l['already_expired'] = "Истекший";
+$l['warning_revoked'] = "Отозван";
+$l['warning_active'] = "Активный";
+$l['error_invalid_warning'] = "Указано недопустимое предупреждение.";
+$l['revoke_warning'] = "Отозвать это предупреждение";
+$l['revoke_warning_desc'] = "Чтобы отменить это предупреждение, пожалуйста, укажите причину ниже. Это не приведет к удалению каких-либо запретов и последствий, введенных этим предупреждением.";
+$l['reason'] = "Причина:";
+$l['warning_is_revoked'] = "Это предупреждение было отозвано";
+$l['revoked_by'] = "Отозвал:";
+$l['date_revoked'] = "Дата, когда отозвали:";
+$l['error_already_revoked'] = "Это предупреждение уже отозвано.";
+$l['error_no_revoke_reason'] = "Вы не ввели причину, почему вы хотите отменить это предупреждение.";
+$l['redirect_warning_revoked'] = "Это предупреждение было отозвано и баллы предупреждений пользователя успешно уменьшилось.";

@@ -5,15 +5,13 @@
  *
  */
 
-$l['forums_and_posts'] = "Forums &amp; Posts";
 
-$l['forum_management'] = "Forum Management";
-$l['forum_announcements'] = "Forum Announcements";
-$l['moderation_queue'] = "Moderation Queue";
-$l['attachments'] = "Attachments";
-
-$l['can_manage_forums'] = "Can manage forums?";
-$l['can_manage_forum_announcements'] = "Can manage forum announcements?";
-$l['can_moderate'] = "Can moderate posts, threads, and attachments?";
-$l['can_manage_attachments'] = "Can manage attachments?";
-
+$l['forums_and_posts'] = "Форумы &amp; Сообщения";
+$l['forum_management'] = "Управление форумом";
+$l['forum_announcements'] = "Объявления форума";
+$l['moderation_queue'] = "Очередь модерации";
+$l['attachments'] = "Вложения";
+$l['can_manage_forums'] = "Можно управлять форумами?";
+$l['can_manage_forum_announcements'] = "Можно управлять объявлениями форума?";
+$l['can_moderate'] = "Можно модерировать сообщения, темы и вложения?";
+$l['can_manage_attachments'] = "Можно модерировать вложения?";

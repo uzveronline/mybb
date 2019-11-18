@@ -5,33 +5,30 @@
  *
  */
 
-$l['user_titles'] = "User Titles";
-$l['user_titles_desc'] = "This section allows management of user titles. User titles are assigned to users based on the number of posts they make and also allow a custom 'Star' image to be shown based on the number of posts the user has.";
-$l['add_new_user_title'] = "Add New User Title";
-$l['add_new_user_title_desc'] = "This section allows you to add a new user title. <i>Note: This is <strong>not</strong> the <u><a href=\"index.php?module=user-group_promotions\">promotion system.</a></u></i>";
 
-$l['error_missing_title'] = "You did not enter a title for this user title";
-$l['error_missing_posts'] = "You did not enter the minimum number of posts for this user title";
-$l['error_cannot_have_same_posts'] = "This user title cannot have the same minimum number of posts as another title";
-$l['error_invalid_user_title'] = "You have specified an invalid user title";
-
-$l['success_user_title_created'] = "The new user title has been created successfully.";
-$l['success_user_title_updated'] = "The user title has been updated successfully.";
-$l['success_user_title_deleted'] = "The specified user title has been deleted successfully.";
-
-$l['title_to_assign'] = "Title to Assign";
-$l['title_to_assign_desc'] = "This title will be shown for users underneath their name if they do not have a custom title set.";
-$l['minimum_posts'] = "Minimum Posts";
-$l['minimum_posts_desc'] = "The minimum number of posts for a user to have before they're assigned this user title.";
-$l['number_of_stars'] = "Number of Stars";
-$l['number_of_stars_desc'] = "Enter the number of stars to be shown under this user title. Set to 0 to show no stars.";
-$l['star_image'] = "Star Image";
-$l['star_image_desc'] = "If this user title should show stars, enter the path to the star image here. If empty, the user group star image will be shown. Use {theme} to specify the image directory for the viewers current theme.";
-$l['save_user_title'] = "Save User Title";
-$l['edit_user_title'] = "Edit User Title";
-$l['edit_user_title_desc'] = "This section allows you to edit a user title.";
-$l['user_title_deletion_confirmation'] = "Are you sure you want to delete this user title?";
-$l['manage_user_titles'] = "Manage User Titles";
-$l['user_title'] = "User Title";
-$l['no_user_titles'] = "You do not have any user titles defined at the moment";
-
+$l['user_titles'] = "Звания пользователей";
+$l['user_titles_desc'] = "Этот раздел позволяет управлять званиями пользователей. Звания пользователей назначаются пользователям на основе количества сообщений, которые они делают, а также позволяют показывать изображение \'Звезда\' на основе числа сообщений пользователя.";
+$l['add_new_user_title'] = "Добавить новое звание пользователя";
+$l['add_new_user_title_desc'] = "Этот раздел позволяет добавить новое звание пользователя. <i>Примечание: Это <strong>не</strong>   <u><a href=\"index.php?module=user-group_promotions\">система продвижения по службе.</a></u></i>";
+$l['error_missing_title'] = "Вы не ввели заголовок звания";
+$l['error_missing_posts'] = "Вы не ввели минимальное количество сообщений для этого звания";
+$l['error_cannot_have_same_posts'] = "Это звание пользователя не может иметь такое же минимальное количество сообщений , как и другое звание";
+$l['error_invalid_user_title'] = "Вы указали неверное звание";
+$l['success_user_title_created'] = "Звание пользователя было успешно создано.";
+$l['success_user_title_updated'] = "Звание пользователя было успешно обновлено.";
+$l['success_user_title_deleted'] = "Звание пользователя было успешно удалено.";
+$l['title_to_assign'] = "Название для присвоения";
+$l['title_to_assign_desc'] = "Это название будет отображаться для пользователей под их именем, если они не имеют пользовательского звания.";
+$l['minimum_posts'] = "Минимум сообщений";
+$l['minimum_posts_desc'] = "Минимальное количество сообщений для пользователя до присвоения им этого звания.";
+$l['number_of_stars'] = "Число звёзд";
+$l['number_of_stars_desc'] = "Введите число звезд, которые будут показаны под этим званием пользователя. Установите 0, чтобы не показать звёзды.";
+$l['star_image'] = "Изображение звезды";
+$l['star_image_desc'] = "Если это звание пользователя должно показывать звёзды, введите здесь путь к изображения звезды. Если пусто, будет показано изображение звезды группы пользователей . Используйте {theme} чтобы указать директорию изображений для просмотра в текущей теме.";
+$l['save_user_title'] = "Сохранить звание";
+$l['edit_user_title'] = "Редактировать звание";
+$l['edit_user_title_desc'] = "Этот раздел позволяет редактировать звание пользователя.";
+$l['user_title_deletion_confirmation'] = "Вы уверены, что хотите удалить это звание пользователя?";
+$l['manage_user_titles'] = "Управление званиями пользователя";
+$l['user_title'] = "Звание пользователя";
+$l['no_user_titles'] = "У вас нет каких-либо званий в данный момент";

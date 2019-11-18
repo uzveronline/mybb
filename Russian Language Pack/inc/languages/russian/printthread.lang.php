@@ -5,7 +5,7 @@
  *
  */
 
-$l['forum'] = "Forum:";
-$l['printable_version'] = "Printable Version";
-$l['pages'] = "Pages:";
-$l['thread'] = "Thread:";
+$l['forum'] = "Форум";
+$l['printable_version'] = "Версия для печати";
+$l['pages'] = "Страницы:";
+$l['thread'] = "Темы:";

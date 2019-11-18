@@ -5,12 +5,11 @@
  *
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
-
+$l['nav_announcements'] = "Объявление форума";
+$l['announcements'] = "Объявления";
+$l['forum_announcement'] = "Объявление форума: {1}";
+$l['error_invalidannouncement'] = "Объявление является недопустимым.";
+$l['announcement_edit'] = "Редактировать это объявление";
+$l['announcement_qdelete'] = "Удалить это объявление";
+$l['announcement_quickdelete_confirm'] = "Вы уверены, что хотите удалить это объявление?";

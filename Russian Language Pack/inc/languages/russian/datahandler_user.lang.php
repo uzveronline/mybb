@@ -5,46 +5,42 @@
  *
  */
 
-$l['userdata_missing_username'] = 'You did not enter a username. Please enter one.';
-$l['userdata_banned_username'] = 'The username you entered may not be registered. Please enter a different username.';
-$l['userdata_bad_characters_username'] = 'The username you entered contains bad characters. Please enter a different username.';
-$l['userdata_invalid_username_length'] = 'The username you entered is of invalid length. Please enter a username between {1} and {2} characters.';
-$l['userdata_invalid_usertitle_length'] = 'The custom user title you entered is of invalid length. Please enter a title no longer than {1} characters.';
-$l['userdata_username_exists'] = 'The username you entered already exists. Please enter a different username.';
-
-$l['userdata_invalid_password_length'] = 'The password you entered is of invalid length. Please enter a password between {1} and {2} characters.';
-$l['userdata_no_complex_characters'] = 'The password you entered is not complex enough. Please enter a password that is at least {1} characters long, and contains an upper case letter, lower case letter and a number.';
-$l['userdata_passwords_dont_match'] = 'The password you entered as confirmation does not match the original one. Please confirm your password correctly.';
-$l['userdata_bad_password_security'] = 'The password you entered is similar to either your username or email address. Please enter a stronger password.';
-
-$l['userdata_missing_email'] = 'You did not enter an email address. Please enter one.';
-$l['userdata_invalid_email_format'] = 'The email address you entered is invalid. Please enter a valid email address.';
-$l['userdata_emails_dont_match'] = 'The email address you entered as confirmation does not match the original one. Please confirm your email address correctly.';
-$l['userdata_banned_email'] = "The email address you have entered is currently disallowed from being used. Please enter a different email address.";
-$l['userdata_email_already_in_use'] = "You have entered an email address that is already in use by another member. Please enter a different email address.";
-
-$l['userdata_dob_required'] = "You did not select your date of birth. Please select your date of birth to continue - you can hide your birthday and age from other users, however.";
-$l['userdata_invalid_website'] = 'The website address you entered is invalid. Please enter a valid website address or leave the field empty.';
-$l['userdata_invalid_icq_number'] = 'The ICQ number you entered is invalid. Please enter a valid ICQ number or leave the field empty.';
-$l['userdata_invalid_birthday'] = 'The birthday you entered is invalid. Please enter a valid birthday or leave the field empty.';
-$l['userdata_invalid_birthday_coppa'] = 'To verify your age, please enter the year you were born. You may hide your Age and Date of Birth in your profile options.';
-$l['userdata_invalid_birthday_coppa2'] = 'You must be at least 13 years of age to be a member of this message board. Please contact an Administrator.';
-$l['userdata_invalid_birthday_privacy'] = 'Please choose a valid birthday privacy option.';
-$l['userdata_invalid_referrer'] = 'The referrer you entered does not exist. Please enter an existing referrer or leave the field empty.';
-$l['userdata_invalid_language'] = 'The language you selected does not exist. Please select an existing language.';
-$l['userdata_invalid_style'] = 'The style you selected is invalid. Please select a valid style.';
+$l['userdata_missing_username'] = "Вы не ввели имя пользователя. Пожалуйста, введите ещё раз.";
+$l['userdata_banned_username'] = "Указанное имя пользователя не может быть зарегистрировано. Пожалуйста, введите другое имя.";
+$l['userdata_bad_characters_username'] = "Указанное имя пользователя содержит недопустимые символы. Пожалуйста, введите другое имя.";
+$l['userdata_invalid_username_length'] = "Длина введенного Вами имени пользователя неправильной длины . Пожалуйста, введите имя пользователя между {1} и {2} символами.";
+$l['userdata_invalid_usertitle_length'] = "Длина введенного Вами звания пользователя превышает допустимую длину. Пожалуйста, введите не больше {1} символов.";
+$l['userdata_username_exists'] = "Указанное имя пользователя уже существует. Пожалуйста, введите другое имя.";
+$l['userdata_invalid_password_length'] = "Введенный вами пароль имеет неправильную длину. Пожалуйста, введите пароль между {1} и {2} символами.";
+$l['userdata_no_complex_characters'] = "Введенный вами пароль не достаточно сложный. Пожалуйста, введите пароль, который по крайней мере, из {1} символов, и содержит прописные буквы, строчные буквы и цифры.";
+$l['userdata_passwords_dont_match'] = "Пароль, введенный вами в качестве подтверждения не соответствует оригиналу. Пожалуйста, подтвердите свой пароль правильно.";
+$l['userdata_bad_password_security'] = "Введенный вами пароль такой же, как имя пользователя или email. Пожалуйста, введите надежный пароль.";
+$l['userdata_missing_email'] = "Вы не ввели адрес электронной почты. Пожалуйста, введите адрес.";
+$l['userdata_invalid_email_format'] = "Вы не ввели адрес электронной почты. Пожалуйста, введите правильный email.";
+$l['userdata_emails_dont_match'] = "Адрес электронной почты, который вы ввели в качестве подтверждения не соответствует оригиналу. Пожалуйста, подтвердите свой адрес электронной почты правильно.";
+$l['userdata_banned_email'] = "Адрес электронной почты, который вы сейчас ввели, запрещен для использования. Пожалуйста, введите другой адрес электронной почты.";
+$l['userdata_email_already_in_use'] = "Вы ввели адрес электронной почты, который уже используется другим участником. Пожалуйста, введите другой адрес электронной почты.";
+$l['userdata_dob_required'] = "Вы не выбрали дату рождения. Пожалуйста, выберите дату рождения, чтобы продолжить - однако, вы можете скрыть свой день рождения и возраст от других пользователей.";
+$l['userdata_invalid_website'] = "Неправильный адрес веб-сайта. Пожалуйста, введите действительный адрес веб-сайта или оставьте поле пустым.";
+$l['userdata_invalid_icq_number'] = "Неправильный ICQ номер. Пожалуйста, введите действительный номер ICQ или оставьте поле пустым.";
+$l['userdata_invalid_birthday'] = "День рождения недействителен. Пожалуйста, введите правильный день рождения или оставить поле пустым.";
+$l['userdata_invalid_birthday_coppa'] = "Чтобы подтвердить свой возраст, пожалуйста, введите год рожденя. Вы можете скрыть свой возраст и дату рождения в настройках профиля.";
+$l['userdata_invalid_birthday_coppa2'] = "Вам должно быть, по крайней мере 13 лет, чтобы быть участником этих форумов. Пожалуйста, обратитесь к администратору.";
+$l['userdata_invalid_birthday_privacy'] = "Пожалуйста, укажите правильный день рождения в качестве защитной опции";
+$l['userdata_invalid_referrer'] = "Введеное имя пригласившего некорректно. Пожалуйста, введите корректное имя пригласившего или оставьте поле пустым.";
+$l['userdata_invalid_language'] = "Выбранный язык не существует. Пожалуйста, выберите один из существующих языков.";
+$l['userdata_invalid_style'] = "Выбранный стиль является недействительным. Пожалуйста, выберите правильный стиль.";
 $l['userdata_away_too_long'] = 'The Away Reason you specified is too long. A maximum of 200 characters is allowed for this field. Please remove {1} character(s) from this field.';
-$l['userdata_missing_returndate'] = 'The Return Date you specified is missing one or more fields. Please make sure you have filled in the day, month, and year fields.';
-$l['userdata_missing_required_profile_field'] = 'You did not enter an option for the "{1}" field. Please fill in or select a value for this field.';
-$l['userdata_bad_profile_field_value'] = 'You did not enter a valid value for the "{1}" field. Please enter a valid value before continuing.';
-$l['userdata_bad_profile_field_values'] = 'You did not select a valid option for the "{1}" field. Please select a value from the presented choices.';
-$l['userdata_max_limit_reached'] = 'You entered an invalid number of characters for the "{1}" field. Please fill in this field with no more than {2} characters.';
-$l['userdata_invalid_checkfield'] = "It has been detected that this form has been submitted by a spam bot. If this is in error, please contact the administrator.";
-$l['userdata_invalid_postnum'] = "The post count you entered is invalid. Please enter a valid post count, or leave the field empty.";
-$l['userdata_invalid_threadnum'] = "The thread count you entered is invalid. Please enter a valid thread count, or leave the field empty.";
-
-$l['userdata_too_many_sig_images'] = "We are sorry, but we cannot update your signature because it contains too many images. Please remove some images from your signature to continue.";
-$l['userdata_too_many_sig_images2'] = "<strong>Note:</strong> The maximum amount of images for signatures is {1}.";
-$l['userdata_sig_too_long'] = "You cannot update your signature because it is too long. The maximum length for signatures is {1} characters. ";
-$l['userdata_sig_remove_chars_plural'] = "Please remove {1} characters and try again.";
-$l['userdata_sig_remove_chars_singular'] = "Please remove 1 character and try again.";
+$l['userdata_missing_returndate'] = "Выбранная дата возвращения имеет одно или несколько незаполненных полей. Пожалуйста, удостоверьтесь, что Вы заполнили поля день, месяц и год.";
+$l['userdata_missing_required_profile_field'] = "Вы не ввели опцию для поля "{1}". Пожалуйста, заполните или выберите значение для этого поля.";
+$l['userdata_bad_profile_field_value'] = "Вы не ввели допустимое значение для поля "{1}". Пожалуйста, введите допустимое значение, прежде чем продолжить.";
+$l['userdata_bad_profile_field_values'] = "Вы не выбрали правильный режим для поля "{1}". Пожалуйста, выберите значение из представленных вариантов.";
+$l['userdata_max_limit_reached'] = "Вы ввели неверный количество символов для поля "{1}". Заполните, пожалуйста, в этой области не более {2} символов.";
+$l['userdata_invalid_checkfield'] = "Было обнаружено, что эта форма была отправлена как спам-бот. Если это ошибка, обратитесь к администратору.";
+$l['userdata_invalid_postnum'] = "Количество сообщений  введено неверно. Пожалуйста, введите правильное количество сообщений, или оставьте это поле пустым.";
+$l['userdata_invalid_threadnum'] = "Количество тем введено  неверно. Пожалуйста, введите правильное количество, или оставьте поле пустым.";
+$l['userdata_too_many_sig_images'] = "Мы сожалеем, но мы не можем обновить вашу подпись, поскольку она содержит слишком много изображений. Удалите некоторые изображения из вашей подписи, чтобы продолжить.";
+$l['userdata_too_many_sig_images2'] = "<strong>Примечание:</strong> Максимальное количество изображений для подписей {1}.";
+$l['userdata_sig_too_long'] = "Вы не можете обновить свою подпись, потому что она слишком длинная. Максимальная длина подписи {1} символ(ов).";
+$l['userdata_sig_remove_chars_plural'] = "Пожалуйста, удалите {1} символов и повторите попытку.";
+$l['userdata_sig_remove_chars_singular'] = "Пожалуйста, удалите 1 символ и повторите попытку.";
