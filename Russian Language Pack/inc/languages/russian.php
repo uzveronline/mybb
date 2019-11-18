@@ -6,7 +6,7 @@
  */
 
 // The friendly name of the language
-$langinfo['name'] = "English (American)";
+$langinfo['name'] = "Russian";
 
 // The author of the language
 $langinfo['author'] = "MyBB Group";
@@ -24,7 +24,7 @@ $langinfo['admin'] = 1;
 $langinfo['rtl'] = 0;
 
 // Sets the lang in the <html> on all pages
-$langinfo['htmllang'] = "en";
+$langinfo['htmllang'] = "ru";
 
 // Sets the character set, blank uses the default.
 $langinfo['charset'] = "UTF-8";
