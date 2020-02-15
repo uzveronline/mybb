@@ -5,14 +5,15 @@
  *
  */
 
-
 $l['nav_calendar'] = "Календарь";
 $l['nav_viewevent'] = "Просмотр события";
 $l['nav_dayview'] = "Просмотр дня";
 $l['nav_addevent'] = "Добавить событие";
 $l['nav_editevent'] = "Редактировать событие";
 $l['nav_move_event'] = "переместить событие";
+
 $l['calendar_disabled'] = "Вы не можете использовать календарь, т.к. как он был отключён администратором.";
+
 // In some languages these months need to be slightly different than those defined in global.lang.php
 $l['alt_month_1'] = "Январь";
 $l['alt_month_2'] = "Февраль";
@@ -26,12 +27,17 @@ $l['alt_month_9'] = "Сентябрь";
 $l['alt_month_10'] = "Октябрь";
 $l['alt_month_11'] = "Ноябрь";
 $l['alt_month_12'] = "Декабрь";
+
 $l['add_private_event'] = "Добавить личное событие";
 $l['add_public_event'] = "Добавить публичное событие";
+
 $l['calendar'] = "Календарь";
+
 $l['jump_month'] = "Перейти к месяцу:";
+
 $l['birthdays_on_day'] = "Дни рождения {1}";
 $l['birthdayhidden'] = "Скрыто";
+
 $l['event'] = "событие";
 $l['events'] = "события";
 $l['add_event'] = "Добавить событие";
@@ -125,6 +131,7 @@ $l['last'] = "Последний";
 $l['all_day'] = "Все дни";
 $l['starts'] = "Начало: ";
 $l['finishes'] = "Окончание: ";
+
 $l['error_incorrectday'] = "Указанный день, похоже, не существует. Пожалуйста, вернитесь и попробуйте снова.";
 $l['error_invalidevent'] = "Вы указали либо недействительное или несушествующее событие.";
 $l['invalid_calendar'] = "Указанный календарь не существует. Вы уверены, что вы посещаете правильную страницу?";

@@ -5,9 +5,7 @@
  *
  */
 
-
 $l['archive_fullversion'] = "Полная версия:";
-
 $l['archive_replies'] = "Ответов";
 $l['archive_reply'] = "Ответ";
 $l['archive_pages'] = "Страницы:";

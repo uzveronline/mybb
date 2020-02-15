@@ -17,8 +17,10 @@ $l['mod_groups'] = "Group(s)";
 $l['online'] = "В сети";
 $l['offline'] = "Не в сети";
 $l['away'] = "Away";
+
 $l['group_leaders'] = "Лидер(ы)";
 $l['group_members'] = "Участник(и)";
+
 $l['no_members'] = "Нет участников в этой группе";
 $l['showteam_disabled'] = "The forum team listing functionality has been disabled by the Administrator.";
 $l['error_noteamstoshow'] = "Нет администрации форума для отображения";

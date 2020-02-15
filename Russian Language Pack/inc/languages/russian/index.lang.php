@@ -13,7 +13,6 @@ $l['forum_unapproved_posts_count'] = "В настоящее время в это
 $l['forum_unapproved_post_count'] = "В настоящее время 1 неодобренный пост в этом форуме.";
 $l['forum_unapproved_threads_count'] = "В настоящее время  {1}  неодобренных тем в этом форуме.";
 $l['forum_unapproved_thread_count'] = "В настоящее время  1 неодобренная тема в этом форуме.";
-
 $l['forumstats'] = "Статистика форума";
 $l['todays_birthdays'] = "День рождения сегодня";
 $l['birthdayhidden'] = "Скрытый";

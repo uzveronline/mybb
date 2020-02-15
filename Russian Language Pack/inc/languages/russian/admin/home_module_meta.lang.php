@@ -5,11 +5,12 @@
  *
  */
 
-
 $l['home'] = "Начало";
+
 $l['dashboard'] = "Рабочий стол";
 $l['preferences'] = "Предпочтения";
 $l['mybb_credits'] = "MyBB уважение";
+
 $l['add_new_forum'] = "Добавить новый форум";
 $l['search_for_users'] = "Поиск пользователей";
 $l['themes'] = "Темы";

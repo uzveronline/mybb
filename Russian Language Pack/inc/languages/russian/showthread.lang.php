@@ -8,6 +8,7 @@
 $l['delete_poll'] = "Удалить опрос";
 $l['close_thread'] = "Закрыть тему";
 $l['stick_thread'] = "Закрепить тему";
+
 $l['author'] = "Автор";
 $l['message'] = "Сообщение";
 $l['threaded'] = "Каскадный режим";
@@ -96,6 +97,7 @@ $l['search_thread'] = "Поиск тем";
 $l['enter_keywords'] = "Введите ключевые слова";
 $l['view_thread_notes'] = "Примечания темы";
 $l['view_all_notes'] = "Просмотр всех примечаний";
+
 $l['save_changes'] = "Сохранить изменения";
 $l['cancel_edit'] = "Отменить редактирование";
 $l['quick_edit_update_error'] = "Ошибка редактирования вашего ответа:";

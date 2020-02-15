@@ -6,6 +6,7 @@
  */
 
 $l['nav_sendthread'] = "Отправить тему другу";
+
 $l['send_thread'] = "Отправить другу";
 $l['recipient'] = "Получатель:";
 $l['recipient_note'] = "Введите здесь email адрес друга";

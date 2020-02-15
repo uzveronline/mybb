@@ -6,7 +6,9 @@
  */
 
 $l['nav_memberlist'] = "Список участников";
+
 $l['memberlist_disabled'] = "Функции списка участников были отключены администратором.";
+
 $l['member_list'] = "Список участников";
 $l['avatar'] = "Аватар";
 $l['username'] = "Имя пользователя";
@@ -38,15 +40,15 @@ $l['begins_with'] = "начинается с";
 $l['username_contains'] = "содержит";
 $l['username_exact'] = "exactly";
 $l['search_website'] = "URL вебсайта";
-
 $l['search_skype'] = "Skype";
 $l['search_google'] = "Google Talk ";
-$l['search_yahoo'] = "Yahoo! Messenger";
 $l['search_icq'] = "ICQ ";
 $l['search_options'] = "Параметры поиска";
 $l['per_page'] = "Результатов на страницу";
 $l['search'] = "Поиск";
+
 $l['error_no_members'] = "<p>С введёнными параметрами поиска пользователей не найдено</p><p>Пожалуйста, измените выражение и повторите попытку.</p>";
+
 $l['a'] = "А";
 $l['b'] = "B";
 $l['c'] = "C";
@@ -73,3 +75,4 @@ $l['w'] = "W";
 $l['x'] = "X";
 $l['y'] = "Y";
 $l['z'] = "Z";
+

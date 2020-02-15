@@ -9,6 +9,7 @@ $l['today_rel'] = "<span title=\"{1}\">Today</span>";
 $l['yesterday_rel'] = "<span title=\"{1}\">Yesterday</span>";
 $l['today'] = "Сегодня";
 $l['yesterday'] = "Вчера";
+
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
 $l['size_eb'] = "EB";
@@ -45,18 +46,23 @@ $l['password'] = "Пароль:";
 $l['secret_pin'] = "Секретный PIN:";
 $l['login'] = "Login";
 $l['lost_password'] = "Забыли свой пароль?";
+
 $l['error_invalid_admin_session'] = "Неверная сессия управления.";
 $l['error_admin_session_expired'] = "Ваша сессия управления истекла.";
 $l['error_invalid_ip'] = "Ваш IP адрес не подходит для этой сессии.";
 $l['error_mybb_admin_lockedout'] = "Эта учетная запись была заблокирована.";
 $l['error_mybb_admin_lockedout_message'] = "Ваша учетная запись в настоящее время заблокирован после  {1} неудачной(-ых) попыток входа в систему. Вам был отправлен сообщение по электронной почте с инструкциями о том, как разблокировать свой аккаунт.";
+
 $l['error_invalid_username'] = " Имя пользователя неверно.";
 $l['error_invalid_uid'] = " Идентификатор пользователя введен неверно.";
 $l['error_invalid_token'] = "Код активации введен неверно.";
+
 $l['success_logged_out'] = "Вы успешно вышли из системы.";
 $l['error_invalid_username_password'] = "Сочетание {1} и пароля не подходит.";
+
 // Action Confirmation
 $l['confirm_action'] = "Вы уверены, что хотите выполнить это действие?";
+
 // Common words and phrases
 $l['home'] = "Home";
 $l['name'] = "Имя";
@@ -111,10 +117,13 @@ $l['seconds_short'] = "сек";
 $l['permanent'] = "Навсегда";
 $l['all_forums'] = "Все форумы";
 $l['all_groups'] = "Все группы";
+$l['all_prefix'] = "All prefixes";
 $l['select_forums'] = "Выбор форумов";
 $l['select_groups'] = "Определённая группа";
+$l['select_prefix'] = "Select prefixes";
 $l['forums_colon'] = "Форумы:";
 $l['groups_colon'] = "Группы:";
+$l['prefix_colon'] = "Prefixes:";
 $l['none'] = "Не определено";
 $l['mybb_acp'] = "MyBB ACP";
 $l['pages'] = "Страницы";
@@ -141,11 +150,14 @@ $l['rel_minutes_single'] = "минута";
 $l['rel_minutes_plural'] = "минут";
 $l['rel_hours_single'] = "час";
 $l['rel_hours_plural'] = "часа(-ов)";
+
+// Parser bits// Parser bits
 $l['quote'] = "Цитата:";
 $l['wrote'] = "написал(а):";
 $l['code'] = "Код:";
 $l['php_code'] = "PHP код:";
 $l['linkback'] = "Оригинальное сообщение";
+
 // The months of the year
 $l['january'] = "Январь";
 $l['february'] = "Февраль";
@@ -159,13 +171,17 @@ $l['september'] = "Сентябрь";
 $l['october'] = "Октябрь";
 $l['november'] = "Ноябрь";
 $l['december'] = "Декабрь";
+
 // Access Denied
 $l['access_denied'] = "Доступ запрещён";
 $l['access_denied_desc'] = "У вас нет разрешения на доступ к этой части панели управления администрирования.";
+
 // Super Administrator required
 $l['cannot_perform_action_super_admin_general'] = "Извините, но вы не можете выполнить это действие, потому что вы не суперадминистратор.<br /><br />Для того, чтобы быть можно было выполнить это действие, необходимо добавить идентификатор пользователя в список суперадминистраторам в inc/config.php.";
+
 // AJAX
 $l['loading_text'] = "Loading<br />Пожалуйста, ожидайте...";
+
 // Time zone selection boxes
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Howland and Baker Islands";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midway Island";
@@ -209,6 +225,7 @@ $l['timezone_gmt_1275'] = "(GMT +12:45) Chatham Islands";
 $l['timezone_gmt_1300'] = "(GMT +13:00) Samoa, Tonga, Tokelau";
 $l['timezone_gmt_1400'] = "(GMT +14:00) Line Islands";
 $l['timezone_gmt_short'] = "GMT {1}({2})";
+
 // Global language strings used for log deletion pages
 $l['confirm_delete_logs'] = "Удалить выбранные записи журнала?";
 $l['confirm_delete_all_logs'] = "Удалять все записи журнала лога?";
@@ -216,11 +233,13 @@ $l['selected_logs_deleted'] = "Выбранные записи журнала б
 $l['all_logs_deleted'] = "Все записи в журнале были удалены.";
 $l['delete_selected'] = "Удалить выбранное";
 $l['delete_all'] = "Удалить все отфильтрованные";
+
 // Misc
 $l['encountered_errors'] = "Произошли следующие ошибки:";
 $l['invalid_post_verify_key'] = "Несоответствие код авторизации. Пожалуйста, подтвердите, что вы хотите выполнить действие ниже.";
 $l['invalid_post_verify_key2'] = "Несоответствие кода авторизации. Пожалуйста, проверьте дважды, что вы обращаетесь к этой страницы правильно.";
 $l['unknown_error'] = "Произошла неизвестная ошибка.";
+
 // Code buttons editor language strings
 $l['editor_bold'] = "Жирный";
 $l['editor_italic'] = "Наколнный";
@@ -289,6 +308,7 @@ $l['editor_facebook'] = "Facebook";
 $l['editor_liveleak'] = "LiveLeak";
 $l['editor_insertvideo'] = "Вставить video";
 $l['editor_maximize'] = "Maximize";
+
 $l['missing_task'] = "Ошибка: файл задания не существует";
 $l['task_backup_cannot_write_backup'] = "Ошибка: невозможно записать бэкап БД в директорию backups.";
 $l['task_backup_ran'] = "Задание бэкапа БД успешно выполнено.";
@@ -303,25 +323,29 @@ $l['task_usercleanup_ran'] = "Задание очистки пользовате
 $l['task_massmail_ran'] = "Задание массовой рассылки успешно выполнено.";
 $l['task_userpruning_ran'] = "Задание очистки пользователей успешно выполнено.";
 $l['task_delayedmoderation_ran'] = "Запланированное задание модерации выполнено успешно.";
-$l['task_massmail_ran_errors'] = 'Одна или больше проблем возникли при отправке "{1}":
-{2}';
+$l['task_massmail_ran_errors'] = "Одна или больше проблем возникли при отправке \"{1}\":
+{2}";
 $l['task_versioncheck_ran'] = "Задача проверки версии выполнена успешно.";
 $l['task_versioncheck_ran_errors'] = "невозможно соединиться с MyBB для проверки версии.";
 $l['task_recachestylesheets_ran'] = "Перекэшировать стили оформления {1}.";
+
 $l['massmail_username'] = "Имя пользователя";
 $l['email_addr'] = "Email адрес";
 $l['board_name'] = "Имя доски";
 $l['board_url'] = "URL доски";
+
 // Unlock ACP
 $l['lockout_unlock'] = "Разблокировать панель управления Администратора";
 $l['enter_username_and_token'] = "Пожалуйста, введите Имя пользователя и код активации для продолжения.";
 $l['unlock_token'] = "Код активации:";
 $l['unlock_account'] = "Разблокировать аккаунт";
+
 // Email message for if an admin account has been locked out
 $l['locked_out_subject'] = "Аккаунт Администратора заблокирован {1}";
 $l['locked_out_message'] = "{1},
 
 Ваш аккаунт администратора {2} был заблокирован после {3} неудачных попыток входа.
+
 Для разблокировки вашего аккаунта,пожалуйста, перейдите в вашем браузере по ссылке ниже.
 
 {4}/{5}/index.php?action=unlock&uid={7}&token={6}
@@ -336,12 +360,17 @@ Username: {1}
 
 Спасибо,
 {2} Администрация";
+
 $l['comma'] = ", ";
+
 $l['search_for_a_user'] = "Поиск пользователя";
+
 $l['mybb_engine'] = "MyBB движок";
+
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 // $l['login_field_width'] = "0";
+
 $l['my2fa'] = "Двухфакторная аутентификация";
 $l['my2fa_failed'] = "The code was incorrect, you\'re logged out now";
 $l['my2fa_code'] = "Пожалуйста, введите код аутентификации";

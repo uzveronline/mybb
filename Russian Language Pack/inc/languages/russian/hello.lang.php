@@ -8,7 +8,6 @@
  *
  */
 
-
 $l['hello'] = "Hello World!";
 $l['hello_add'] = "Добавить";
 $l['hello_add_message'] = "Добавить сообщение";

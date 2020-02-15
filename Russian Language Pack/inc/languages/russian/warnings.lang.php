@@ -9,6 +9,7 @@ $l['nav_profile'] = "Профиль {1}";
 $l['nav_warning_log'] = "Журнал предупреждений";
 $l['nav_add_warning'] = "Предупреждения пользователя";
 $l['nav_view_warning'] = "Подробности предупреждений";
+
 $l['warning_for_post'] = ".. Сообщение:";
 $l['already_expired'] = "Истекает";
 $l['details_username'] = "Имя пользователя";

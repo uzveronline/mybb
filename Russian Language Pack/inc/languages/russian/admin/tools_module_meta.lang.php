@@ -5,10 +5,11 @@
  *
  */
 
-
 $l['tools_and_maintenance'] = "Инструменты &amp; Обслуживание";
+
 $l['maintenance'] = "Обслуживание";
 $l['logs'] = "Логи";
+
 $l['system_health'] = "Работоспособность системы";
 $l['cache_manager'] = "Управление кэшем";
 $l['task_manager'] = "Управление задачами";
@@ -17,6 +18,7 @@ $l['view_php_info'] = "Просмотр инфо о PHP";
 $l['database_backups'] = "Бэкапы БД";
 $l['optimize_database'] = "Оптимизация БД";
 $l['file_verification'] = "Проверка файлов";
+
 $l['administrator_log'] = "Лог администратора";
 $l['moderator_log'] = "Лог модератора";
 $l['user_email_log'] = "Лог почты пользователя";
@@ -24,6 +26,7 @@ $l['system_mail_log'] = "Лог системного журнала электр
 $l['user_warning_log'] = "Лог предупреждений пользователя";
 $l['spam_log'] = "Лог спама";
 $l['statistics'] = "Статистика";
+
 $l['can_access_system_health'] = "Можно иметь доступ к работоспособности ситемы?";
 $l['can_manage_cache'] = "Можно управлять кэшем?";
 $l['can_manage_tasks'] = "Можно управлять запланированными задачами?";

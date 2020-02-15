@@ -5,12 +5,13 @@
  *
  */
 
-
 $l['forums_and_posts'] = "Форумы &amp; Сообщения";
+
 $l['forum_management'] = "Управление форумом";
 $l['forum_announcements'] = "Объявления форума";
 $l['moderation_queue'] = "Очередь модерации";
 $l['attachments'] = "Вложения";
+
 $l['can_manage_forums'] = "Можно управлять форумами?";
 $l['can_manage_forum_announcements'] = "Можно управлять объявлениями форума?";
 $l['can_moderate'] = "Можно модерировать сообщения, темы и вложения?";

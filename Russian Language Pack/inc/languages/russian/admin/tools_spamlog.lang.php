@@ -26,6 +26,7 @@ $l['asc'] = "возрастанию";
 $l['desc'] = "убыванию";
 $l['search_ip_on_sfs'] = "Search this IP on Stop Forum Spam";
 $l['search'] = "Search";
+
 $l['in'] = "по";
 $l['order'] = " ";
 $l['sort_by'] = "Сортировать по ";

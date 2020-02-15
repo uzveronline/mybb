@@ -5,8 +5,8 @@
  *
  */
 
-
 $l['users_and_groups'] = "Пользователи &amp; Группы";
+
 $l['users'] = "Пользователи";
 $l['awaiting_activation'] = "Awaiting Activation";
 $l['groups'] = "Группы";
@@ -15,6 +15,7 @@ $l['banning'] = "Блокирование";
 $l['admin_permissions'] = "Права доступа администратора";
 $l['mass_mail'] = "Массовая рассылка";
 $l['group_promotions'] = "Поощрение групп";
+
 $l['can_manage_users'] = "Может управлять пользователями?";
 $l['can_manage_awaiting_activation'] = "Can manage awaiting activation?";
 $l['can_manage_user_groups'] = "Может управлять группами пользователей?";
