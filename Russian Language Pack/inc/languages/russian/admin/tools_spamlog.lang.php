@@ -24,8 +24,8 @@ $l['days'] = "дней";
 $l['filter_spam_logs'] = "Фильтр журнала спама";
 $l['asc'] = "возрастанию";
 $l['desc'] = "убыванию";
-$l['search_ip_on_sfs'] = "Search this IP on Stop Forum Spam";
-$l['search'] = "Search";
+$l['search_ip_on_sfs'] = "Искать этот IP в Stop Forum Spam";
+$l['search'] = "Поиск";
 
 $l['in'] = "по";
 $l['order'] = " ";

@@ -25,8 +25,8 @@ $l['move_banned_group'] = "Перенести в запрещенную груп
 $l['move_banned_group_permanent'] = "Перенести в запрещенную группу ({1}) навсегда";
 $l['suspend_posting'] = "Приостановка привилегий постинга для {1} {2}";
 $l['suspend_posting_permanent'] = "Приостановка привилегий постинга навсегда";
-$l['moderate_new_posts'] = "Moderate new posts for {1} {2}";
-$l['moderate_new_posts_permanent'] = "Moderate new posts навсегда";
+$l['moderate_new_posts'] = "Модерировать новые сообщения для {1} {2}";
+$l['moderate_new_posts_permanent'] = "Модерировать новые сообщения навсегда";
 $l['no_warning_levels'] = "Нет уровней предупреждения на вашем форуме в это время.";
 
 $l['warning_type'] = "Тип Предупреждения";

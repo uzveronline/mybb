@@ -8,7 +8,7 @@
 $l['users_and_groups'] = "Пользователи &amp; Группы";
 
 $l['users'] = "Пользователи";
-$l['awaiting_activation'] = "Awaiting Activation";
+$l['awaiting_activation'] = "Ожидающие активации";
 $l['groups'] = "Группы";
 $l['user_titles'] = "Звания пользователей";
 $l['banning'] = "Блокирование";
@@ -17,10 +17,10 @@ $l['mass_mail'] = "Массовая рассылка";
 $l['group_promotions'] = "Поощрение групп";
 
 $l['can_manage_users'] = "Может управлять пользователями?";
-$l['can_manage_awaiting_activation'] = "Can manage awaiting activation?";
+$l['can_manage_awaiting_activation'] = "Может управлять ожидающими активации?";
 $l['can_manage_user_groups'] = "Может управлять группами пользователей?";
 $l['can_manage_user_titles'] = "Может управлять званиями пользователей?";
 $l['can_manage_user_bans'] = "Может управлять банами пользователей?";
 $l['can_manage_admin_permissions'] = "Может управлять разрешениями?";
 $l['can_send_mass_mail'] = "Может управлять массовой рассылкой?";
-$l['can_manage_group_promotions'] = "Может управлять акциями групп?";
+$l['can_manage_group_promotions'] = "Может управлять продвижениями групп?";

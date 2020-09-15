@@ -34,12 +34,12 @@ $l['radio'] = "Радиокнопки";
 $l['checkbox'] = "Чекбокс";
 $l['language_selection_box'] = "Поле выбора языка";
 $l['forum_selection_box'] = "Поле выбора форума";
-$l['forum_selection_single'] = "Single Forum Selection Box";
+$l['forum_selection_single'] = "Поле выбора одной форума";
 $l['group_selection_box'] = "Поле выбора группы";
-$l['group_selection_single'] = "Single Group Selection Box";
+$l['group_selection_single'] = "Поле выбора одной группы";
 $l['adminlanguage'] = "Поле выбора языка администрирования";
 $l['cpstyle'] = "Поле выбора стиля контрольной панели";
-$l['prefix_selection_box'] = "Prefix Selection Box";
+$l['prefix_selection_box'] = "Поле выбора префикса";
 $l['php'] = "Evaluated PHP";
 $l['type'] = "Тип";
 $l['extra'] = "Дополнительно";
@@ -70,10 +70,10 @@ $l['confirm_setting_group_deletion'] = "Вы уверены, что хотите
 $l['confirm_setting_deletion'] = "Вы уверены, что хотите удалить эту настройку?";
 
 $l['error_format_dimension'] = "Defined {1} format is invalid.";
-$l['error_field_postmaxavatarsize'] = "Maximum Avatar Dimensions";
-$l['error_field_useravatardims'] = "Default Avatar Dimensions";
-$l['error_field_maxavatardims'] = "Maximum Avatar Dimensions";
-$l['error_field_memberlistmaxavatarsize'] = "Maximum Display Avatar Dimensions";
+$l['error_field_postmaxavatarsize'] = "Максимальные размеры аватара";
+$l['error_field_useravatardims'] = "Размеры аватара по умолчанию";
+$l['error_field_maxavatardims'] = "Максимальные размеры аватара";
+$l['error_field_memberlistmaxavatarsize'] = "Максимальные размеры отображаемого аватара";
 $l['error_missing_title'] = "Вы не ввели название для этого параметра";
 $l['error_missing_group_title'] = "Вы не ввели название для этой группы настроек";
 $l['error_invalid_gid'] = "Вы не выбрали действующую группу, чтобы поместить этот параметр в";
@@ -90,6 +90,7 @@ $l['error_cannot_edit_php'] = "Это особый тип настройки, к
 $l['error_ajax_search'] = "Существовала проблема поиска для настройки:";
 $l['error_ajax_unknown'] = "При поиске настроек произошла неизвестная ошибка.";
 $l['error_chmod_settings_file'] = "файл настройки \"./inc/settings.php\" не доступен для записи. Пожалуйста, измените права (CHMOD) на 777.<br />Для дополнительной информации по правам (CHMOD), смотрите<a href=\"http://docs.mybb.com/HowTo_Chmod.html\" target=\"_blank\">MyBB документацию</a>.";
+$l['error_admin_email_settings_empty'] = '<div class="smalltext" style="font-weight: normal;">Please note that the <strong>Admin Email</strong> was not saved as the setting can not be empty, and must be a valid email address.</div>';
 
 $l['success_setting_added'] = "Настройка была успешно создана.";
 $l['success_setting_updated'] = "Настройка была успешно обновлена.";
@@ -99,6 +100,7 @@ $l['success_settings_updated_hiddencaptchaimage'] = "<div class=\"smalltext\" st
 $l['success_settings_updated_username_method'] = "<div class=\"smalltext\" style=\"font-weight: normal;\">Пожалуйста, обратите внимание, что параметры <b>Разрешенные методы Входа</b>не были обновлены из-за многочисленных пользователей, использующих одновременно один и тот же адрес электронной почты.</div>";
 $l['success_settings_updated_allowmultipleemails'] = "<div class=\"smalltext\" style=\"font-weight: normal;\">Пожалуйста, обратите внимание, что параметр <b>Разрешить для одного email многократную регистрацию?</b> не может быть включен, поскольку параметр<b>Разрешенные методы Входа</b> позволяет пользователям авторизоваться на сайте по email.</div>";
 $l['success_settings_updated_captchaimage'] = "<div class=\"smalltext\" style=\"font-weight: normal;\">Пожалуйста, обратите внимание, что параметр<strong>CAPTCHA Images для регистрации &amp; Posting</strong> был сброшен на <strong>MyBB Default Captcha</strong> из-за отсутствия открытого/секретного ключа (ей).</div>";
+$l['success_settings_updated_minsearchword'] = '<div class="smalltext" style="font-weight: normal;">Please note that the <strong>Minimum Search Word Length</strong> setting was set to match the database system configuration.</div>';
 $l['success_display_orders_updated'] = "Порядок отображения настроек был успешно обновлен.";
 $l['success_setting_group_added'] = "Группа настройка была успешно создана.";
 $l['success_setting_group_updated'] = "Группа установок была успешно обновлена.";

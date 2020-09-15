@@ -16,11 +16,11 @@ $l['mod_forums'] = "Форум(ы)";
 $l['mod_groups'] = "Group(s)";
 $l['online'] = "В сети";
 $l['offline'] = "Не в сети";
-$l['away'] = "Away";
+$l['away'] = "Отсутствует";
 
 $l['group_leaders'] = "Лидер(ы)";
 $l['group_members'] = "Участник(и)";
 
 $l['no_members'] = "Нет участников в этой группе";
-$l['showteam_disabled'] = "The forum team listing functionality has been disabled by the Administrator.";
+$l['showteam_disabled'] = "Функциональность просмотра списка команды форума была отключена администратором.";
 $l['error_noteamstoshow'] = "Нет администрации форума для отображения";

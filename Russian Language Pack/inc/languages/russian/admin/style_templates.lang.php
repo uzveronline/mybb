@@ -67,7 +67,7 @@ $l['edit_template_set'] = "Изменить комплект шаблона";
 $l['delete_template_set'] = "Удалить комплект шаблона";
 $l['empty_template_set'] = "<em>В этом наборе нет шаблонов .</em>";
 
-$l['inline_edit'] = "Inline Edit";
+$l['inline_edit'] = "Встроенное редактирование";
 $l['full_edit'] = "Полное редактирование";
 $l['revert_to_orig'] = "Вернуть к оригиналу";
 $l['delete_template'] = "Удалить шаблон";

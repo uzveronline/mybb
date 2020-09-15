@@ -27,4 +27,4 @@ $l['my2fa_qr'] = "Код двухфакторной аутентификации
 $l['recovery_codes_desc'] = "Просмотреть ваш <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">код восстановления</a>.";
 $l['recovery_codes'] = "Коды восстановления";
 $l['recovery_codes_warning'] = "<b>Примечание:</b> коды будут использованы при каждом посещении страницы и могут быть использованы только один раз.";
-$l['print_recovery_codes'] = "Print Recovery Codes";
+$l['print_recovery_codes'] = "Печать кодов восстановления";

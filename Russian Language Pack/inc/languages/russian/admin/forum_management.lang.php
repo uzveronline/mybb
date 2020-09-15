@@ -31,6 +31,7 @@ $l['order'] = "Порядок";
 
 $l['subforums'] = "Подфорумы";
 $l['moderators'] = "Модераторы";
+$l['forum_thread_prefixes'] = "Префиксы Тем";
 $l['permissions'] = "Права доступа";
 $l['delete_forum'] = "Удалить форум";
 
@@ -78,7 +79,7 @@ $l['can_view_ips'] = "Можно ли просмотреть IP?";
 $l['can_view_unapprove'] = "Может ли просматривать неутвержденные темы и сообщения?";
 $l['can_view_deleted'] = "Можно ли просматривать удаленные темы и сообщения?";
 $l['can_open_close_threads'] = "Можно открыть / закрыть темы?";
-$l['can_stick_unstick_threads'] = "Can stick/unstick threads?";
+$l['can_stick_unstick_threads'] = "Можно приклеить / отклеить темы?";
 $l['can_approve_unapprove_threads'] = "Может ли одобрять/запрещать темы?";
 $l['can_approve_unapprove_posts'] = "Может ли одобрять/запрещать сообщения?";
 $l['can_approve_unapprove_attachments'] = "Может ли одобрять/запрещать вложения?";
@@ -263,7 +264,7 @@ $l['editing_field_caneditposts'] = "Можно редактировать сво
 $l['editing_field_candeleteposts'] = "Можно удалять свои сообщения?";
 $l['editing_field_candeletethreads'] = "Можно удалять свои темы?";
 $l['editing_field_caneditattachments'] = "Можно обновить собственные вложения?";
-$l['editing_field_canviewdeletionnotice'] = "Can view deletion notices?";
+$l['editing_field_canviewdeletionnotice'] = "Можно просматривать уведомления об удалении?";
 
 $l['moderate_field_modposts'] = "Модерировать новые сообщения?";
 $l['moderate_field_modthreads'] = "Модерировать новые темы?";
@@ -275,5 +276,5 @@ $l['polls_field_canvotepolls'] = "Можно голосовать в опрос�
 
 $l['misc_field_cansearch'] = "Возможен поиск по форуму?";
 
-$l['confirm_proceed_deletion'] = "Click \"Proceed\" to continue the deletion of the forum.";
-$l['automatically_redirecting'] = "Automatically Redirecting&hellip;";
+$l['confirm_proceed_deletion'] = "Нажмите \ "Продолжить \", чтобы продолжить удаление форума.";
+$l['automatically_redirecting'] = "Автоматическое перенаправление&hellip;";

@@ -82,7 +82,7 @@ $l['failed_login_wait'] = "Вы не смогли войти в требуемо
 $l['failed_login_again'] = "<br />У вас есть ещё <strong>{1}</strong> попыток входа в систему.";
 $l['error_max_emails_day'] = "Вы не можете использовать функции \'Отправить тему другу\' или \'Email пользователю\' потому, что вы уже использовали вашу выделенную квоту отправки {1} сообщения в течение последних 24 часов.";
 $l['attachments_disabled'] = "Вы не можете использовать функцию вложения, как она была отключена администратором.";
-$l['error_attach_filename_length'] = "The file name '{1}' exceeds the maximum file name length {2}. Please upload a file with a shorter file name.";
+$l['error_attach_filename_length'] = "Имя файла '{1}' превышает максимальную длину имени файла {2}. Загрузите файл с более коротким именем.";
 
 $l['emailsubject_lostpw'] = "Сброс пароля для {1}";
 $l['emailsubject_passwordreset'] = "Новый пароль для {1}";

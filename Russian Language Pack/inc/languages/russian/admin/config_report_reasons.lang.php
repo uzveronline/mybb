@@ -53,7 +53,7 @@ $l['error_cannot_modify_reason'] = "Вы не можете изменить эт
 $l['error_cannot_delete_reason'] = "Вы не можете удалить эту причину.";
 $l['error_invalid_reason'] = "Вы выбрали неправильную причину.";
 $l['error_missing_title'] = "Вы не ввели название для этой причины.";
-//$l['error_missing_applies_to'] = "You did not select what content this reason applies to.";
+//$l['error_missing_applies_to'] = "Вы не выбрали, к какому контенту относится эта причина.";
 $l['error_missing_extra'] = "Вы должны выбрать, если хотите указать дополнительную информацию по этой причине.";
 
 $l['success_reasons_disporder_updated'] = "Порядок отображение причин жалоб был успешно обновлён";

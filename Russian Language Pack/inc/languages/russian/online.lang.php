@@ -106,7 +106,7 @@ $l['members_were_online_today'] = "<strong>{1}</strong> зарегистриро
 $l['member_online_hidden'] = " ({1} невидимый участник )";
 $l['members_online_hidden'] = " ({1} невидимых участников )";
 $l['rating_thread'] = "Рейтинг темы";
-$l['viewing_imcenter'] = "Просмотр IM центра";
+
 $l['managing_favorites'] = "Управляет темами в закладках";
 $l['managing_subscriptions'] = "Управляет подписками на темы";
 $l['managing_group'] = "Управляет группами пользователей";

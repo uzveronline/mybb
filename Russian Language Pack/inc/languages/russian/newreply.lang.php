@@ -31,8 +31,8 @@ $l['multiquote_external_one'] = "Вы выбрали один пост за пр
 $l['multiquote_external'] = "Вы выбрали {1} сообщения вне этой темы.";
 $l['multiquote_external_one_deselect'] = "отменить выбор этого сообщения";
 $l['multiquote_external_deselect'] = "отменить выбор всех сообщений";
-$l['multiquote_external_one_quote'] = "Quote this post too";
-$l['multiquote_external_quote'] = "Цитата это сообщение слишком большая";
+$l['multiquote_external_one_quote'] = "Цитируйте и это сообщение";
+$l['multiquote_external_quote'] = "Цитируйте и эти сообщения";
 
 $l['redirect_newreply'] = "Спасибо, ваш ответ опубликован.";
 $l['redirect_newreply_moderation'] = "Администратор указал, что все новые сообщения требуют модерации. Сейчас вы будете возвращены в тему.";

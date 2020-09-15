@@ -5,8 +5,8 @@
  *
  */
 
-$l['today_rel'] = "<span title=\"{1}\">Today</span>";
-$l['yesterday_rel'] = "<span title=\"{1}\">Yesterday</span>";
+$l['today_rel'] = "<span title=\"{1}\">Сегодня</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Вчера</span>";
 $l['today'] = "Сегодня";
 $l['yesterday'] = "Вчера";
 
@@ -117,13 +117,13 @@ $l['seconds_short'] = "сек";
 $l['permanent'] = "Навсегда";
 $l['all_forums'] = "Все форумы";
 $l['all_groups'] = "Все группы";
-$l['all_prefix'] = "All prefixes";
+$l['all_prefix'] = "Все префиксы";
 $l['select_forums'] = "Выбор форумов";
 $l['select_groups'] = "Определённая группа";
-$l['select_prefix'] = "Select prefixes";
+$l['select_prefix'] = "Выбрать префиксы";
 $l['forums_colon'] = "Форумы:";
 $l['groups_colon'] = "Группы:";
-$l['prefix_colon'] = "Prefixes:";
+$l['prefix_colon'] = "Префиксы:";
 $l['none'] = "Не определено";
 $l['mybb_acp'] = "MyBB ACP";
 $l['pages'] = "Страницы";
@@ -137,10 +137,10 @@ $l['on'] = "Вкл";
 $l['off'] = "Выкл";
 $l['alt_enabled'] = "Доступно";
 $l['alt_disabled'] = "Недоступно";
-$l['enable'] = "Enable";
-$l['disable'] = "Disable";
+$l['enable'] = "Включить";
+$l['disable'] = "Выключить";
 $l['saved'] = "Сохранено";
-$l['guest'] = 'Guest';
+$l['guest'] = 'Гость';
 
 $l['rel_in'] = "В ";
 $l['rel_ago'] = "тому назад";
@@ -301,7 +301,7 @@ $l['editor_insertquote'] = "Втатвить цитату";
 $l['editor_invalidyoutube'] = "Неверное YouTube video";
 $l['editor_dailymotion'] = "Dailymotion";
 $l['editor_metacafe'] = "MetaCafe";
-$l['editor_veoh'] = "Veoh";
+$l['editor_mixer'] = "Mixer";
 $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "Youtube";
 $l['editor_facebook'] = "Facebook";

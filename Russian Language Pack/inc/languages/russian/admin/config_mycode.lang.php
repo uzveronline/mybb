@@ -31,7 +31,7 @@ $l['save_mycode'] = "Сохранить ББкод";
 $l['add_mycode'] = "Добавить ББкод";
 $l['changes_not_saved'] = "Ваши изменения еще не были сохранены.";
 
-$l['sandbox'] = "Sandbox";
+$l['sandbox'] = "Песочница";
 $l['sandbox_desc'] = "Вы можете использовать эту область, чтобы проверить регулярное выражение и замену выше перед сохранением изменений.";
 $l['test_value'] = "Тестовое значение";
 $l['test_value_desc'] = "Введите в текстовом формате, чтобы протестировать в поле ниже.";
@@ -43,7 +43,7 @@ $l['test'] = "Тестировать ББкод";
 
 $l['error_missing_title'] = "Вы не ввели заголовок.";
 $l['error_missing_regex'] = "Вы не ввели регулярное выражение.";
-$l['error_regex_already_available'] = "You entered a regular expression which is already defined in another MyCode. Please provide a different regular expression for this MyCode.";
+$l['error_regex_already_available'] = "Вы ввели регулярное выражение, которое уже определено в другом MyCode. Укажите другое регулярное выражение для этого MyCode.";
 $l['error_missing_replacement'] = "Вы не ввели замену.";
 $l['error_invalid_mycode'] = "Указанный ББкод не существует.";
 

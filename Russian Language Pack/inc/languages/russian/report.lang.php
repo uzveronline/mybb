@@ -17,7 +17,7 @@ $l['report_reason_reputation'] = "Жалоба на репутацию";
 
 // Content reasons
 $l['report_reason_rules'] = "Нарушение правил форума";
-$l['report_reason_bad'] = "Inappropriate Content";
+$l['report_reason_bad'] = "Неприемлемый контент";
 $l['report_reason_spam'] = "Спам";
 $l['report_reason_wrong'] = "Неправильный форум";
 $l['report_reason_other'] = "Другое";

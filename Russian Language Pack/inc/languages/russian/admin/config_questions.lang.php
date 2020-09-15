@@ -11,10 +11,10 @@ $l['add_new_question'] = "Добавить новый вопрос";
 $l['add_new_question_desc'] = "Добавить вопрос и его ответы на вопросы безопасности, которые будут использоваться во время регистрации.";
 $l['edit_question'] = "Редактировать Вопрос";
 $l['edit_question_desc'] = "Здесь вы должны изменить секретный вопрос.";
-$l['preview_question'] = "Preview Question";
+$l['preview_question'] = "Предварительный просмотр вопроса";
 
 $l['options'] = "Параметры";
-$l['shown'] = "Shown";
+$l['shown'] = "Показано";
 $l['correct'] = "Верный";
 $l['incorrect'] = "Неверный";
 $l['disable_question'] = "Отключить вопрос";
